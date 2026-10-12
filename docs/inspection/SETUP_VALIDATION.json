@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-12",
+  "scope": "Documentation setup validation",
+  "passed": true,
+  "checks": {
+    "preservation": {
+      "snapshot_count": 709,
+      "unchanged_input_count": 708,
+      "authorized_replacement_excluded_from_equality": [
+        "/Users/kevingraham/Documents/GitHub/LastRonin/AGENTS.md"
+      ],
+      "deleted_test_page": "connection-test.html (untracked before deletion)",
+      "test_page_absent": true
+    },
+    "source_copies": {
+      "GAME_BIBLE.md": "192f7279e8a31da87bb1130b2f44a8ba1554f13d8abfa1994b34033d8af41fa2",
+      "ART_BIBLE.md": "735eeddc5db18cfc9018c0c7f80b6f10178aaae2f3d3a20cc1592504a14f5691",
+      "ACTS_AND_MAPS.md": "7cdf05efce76526620ee4e6f9bebf496a51f73aef53f7a91ddb6b31db3e8d793",
+      "GAMEPLAY_SYSTEMS.md": "26147229b5e1bec0758fcad7a618c5989bcd029d54b23ff80c5e93776f12d771"
+    },
+    "production_board": {
+      "task_count": 81,
+      "system_tasks": 24,
+      "enemy_tasks": 9,
+      "arc_coverage": [
+        "FAMILY",
+        "FALL",
+        "LOST",
+        "RETURN",
+        "FINAL"
+      ],
+      "dependency_graph": "acyclic"
+    },
+    "manifests": {
+      "animation_rows": 75,
+      "requirements": 60,
+      "source_records": 15,
+      "environment_rows": 52,
+      "all_source_paths_and_hashes_resolve": true,
+      "all_runtime_exports_pending": true
+    },
+    "local_markdown_links_checked": 26,
+    "fresh_blender_action_metadata_equal_prior": true,
+    "limitations": [
+      "No browser route playthrough or real-device benchmark",
+      "No fresh full animation pose sampling or engine clip export",
+      "Godot checks are limited headless checks of external temporary copies; warnings retained in RUNTIME_CHECKS.txt",
+      "All production content remains outside the GitHub repository until assigned source intake"
+    ],
+    "git_whitespace": {
+      "new_authored_files": "pass",
+      "preserved_reference_exceptions": "Eight source Markdown hard-break lines (lines 3/4 in each of the four unchanged design copies); byte preservation takes precedence."
+    },
+    "reproduction": {
+      "blender_read_only": "/Applications/Blender.app/Contents/MacOS/Blender --background '/Users/kevingraham/Documents/ChatGPT/Last Ronin/Ronin_Animation_Library.blend' --python '/Users/kevingraham/Documents/ChatGPT/Last Ronin/tools/blender/inspect_library.py'",
+      "html_syntax": "Extract inline <script> content from B1 to a temporary .js file, then node --check <file>.",
+      "godot_import": "Godot 4.6.2 --headless --editor --path <temporary copy of G0 or extracted G3> --quit",
+      "godot_run": "Godot 4.6.2 --headless --path <temporary extracted G3> --log-file <temporary log> --quit-after 60",
+      "preservation": "Resolve PROJECT_INVENTORY source_roots; compare sha256_before_setup for baseline_input records except the explicitly updated repo/AGENTS.md. Compare docs source copies with their originals."
+    }
+  },
+  "errors": []
+}

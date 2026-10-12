@@ -1,0 +1,5116 @@
+{
+  "schema_version": 1,
+  "inspection_date": "2026-10-12",
+  "repository": "https://github.com/kevingraham523/LastRonin.git",
+  "baseline_commit": "12388c4",
+  "source_roots": {
+    "repo": "/Users/kevingraham/Documents/GitHub/LastRonin",
+    "legacy_animation": "/Users/kevingraham/Documents/ChatGPT/Last Ronin",
+    "downloads": "/Users/kevingraham/Downloads"
+  },
+  "scope": "Local file/source and read-only Blender metadata inspection. No engine-ready character or final 2D kit found. Unrelated repositories are not part of this game.",
+  "not_located": [
+    "hollow_signal_orthographic_computer.html",
+    "Last_Ronin_Production_Package.zip",
+    "Last_Ronin_Block01_v02_Source_and_QA.zip"
+  ],
+  "preservation_snapshot_file_count": 709,
+  "files": [
+    {
+      "source_root": "legacy_animation",
+      "path": ".DS_Store",
+      "sha256_before_setup": "b5c7107fd621a40ac3e3d74988f9ddf709a9fa631f610e6b44524f77b290be49",
+      "bytes": 12292,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": ".gitattributes",
+      "sha256_before_setup": "8741102eaf7e3b3ac190218a446ee31c25c680f0b1998d81dc31886f8f210390",
+      "bytes": 297,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": ".gitignore",
+      "sha256_before_setup": "28f5d9da84249443fbe16cd646c92a3d9a7220030566f6417989275e864281b9",
+      "bytes": 226,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Animation Previews/Ronin_Breathing_Idle.gif",
+      "sha256_before_setup": "31824f2fdf72b06d13544122cac8b9bbfb0f64f8e6439e67060b10354a8d5db4",
+      "bytes": 8993767,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Animation Previews/Ronin_Jump.gif",
+      "sha256_before_setup": "eb7a706805086f078f1f16a6d14095e186b190df8d610cd545d1f25d14c93e00",
+      "bytes": 6491716,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Animation Previews/Ronin_Mutant_Run.gif",
+      "sha256_before_setup": "a6ba3f80d00cd2d9c560bf0b2a5ba8aaa2605db4f02aea1b4b7ed88beb083c03",
+      "bytes": 3202310,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Animation Previews/Ronin_Punch.gif",
+      "sha256_before_setup": "9ae5561d52299150a64daeae04143c8ea58e58a90babde14d0ece0c4507b684b",
+      "bytes": 2651561,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Animation Previews/Ronin_Turn_Left_45.gif",
+      "sha256_before_setup": "515946499f70b38d0e8b13a7960fb29595136b923a10b9c6b595b040d47ad972",
+      "bytes": 3127723,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Animation Previews/Ronin_Turn_Right_45.gif",
+      "sha256_before_setup": "ee6a32cdfe8da13fedfb1be7114cedc927503b49a61ee708bfd17774f1f8d70a",
+      "bytes": 4620782,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Animation Previews/Ronin_Turn_Right_90.gif",
+      "sha256_before_setup": "c1f67d753edab2dfebe5c474c27920f15fbe94425a300deff07a4c3e7be868b8",
+      "bytes": 5577957,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Creature_Pack_Recommendations.txt",
+      "sha256_before_setup": "3d69d6742b243f32b4cddba02fb6604e4bb0cc3b0c2d09dcf18c22f8abeebb2b",
+      "bytes": 5029,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "GAMEPLAY_SYSTEMS.md",
+      "sha256_before_setup": "26147229b5e1bec0758fcad7a618c5989bcd029d54b23ff80c5e93776f12d771",
+      "bytes": 25181,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "README.md",
+      "sha256_before_setup": "8f9a50afed2ee7ed58bc89fc3bdad2aa3f82377a917f30d819d14c27ef6a78db",
+      "bytes": 2467,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Animation_Contact_Sheet.jpg",
+      "sha256_before_setup": "1dab25f38ec95ce11280406ed1cde5b033947025842fcc14b23afc8db7695950",
+      "bytes": 399780,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Animation_Library.blend",
+      "sha256_before_setup": "f430c0b61f6ed18dce818109d69b2fdd5ab5a1aee6ed4c33367eb71cecee8b61",
+      "bytes": 6469932,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Animation_Library.blend1",
+      "sha256_before_setup": "8c1f641133bdb9ba31c62d7bb192e53df613a4d2f08b069b0678584be6a3fe01",
+      "bytes": 6463219,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Animation_Library_Guide.txt",
+      "sha256_before_setup": "0a98cd8158ea502b8e0de883ca7e7101f36da3b171714943b0dd71bea68d8872",
+      "bytes": 3745,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Animation_Library_QA_Report.txt",
+      "sha256_before_setup": "b7d2cf605b98196d298d583472f6f21c61b94ff99a26c8cd5d2f73d2ab8b55dc",
+      "bytes": 3833,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Animation_Showcase.gif",
+      "sha256_before_setup": "a427ac3e64102cf99e0ce6ffa6e7f4905e200eceee5b6f28acabfcfed22d457a",
+      "bytes": 37867895,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Mutant_Run_Preview.gif",
+      "sha256_before_setup": "a6ba3f80d00cd2d9c560bf0b2a5ba8aaa2605db4f02aea1b4b7ed88beb083c03",
+      "bytes": 3202310,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Mutant_Run_QA_Poses.png",
+      "sha256_before_setup": "7886eb0cc9785a905e146c55c47e283c21a0793ae61c692d277c77b69c7df9ac",
+      "bytes": 700419,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Mutant_Run_QA_Report.txt",
+      "sha256_before_setup": "820385813985614ec56343310aaa266256355f0d16d7034e74fa268f9cf95a56",
+      "bytes": 3673,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_QA_Poses.png",
+      "sha256_before_setup": "f396d28b9d639b46a1def1f28d4c73f2e2750c21a1020f56c9259b957ba2282f",
+      "bytes": 732756,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_QA_Report.txt",
+      "sha256_before_setup": "6b17118a6197c368777fea32e134e23ecfd99f2110a135e6ceec5dfce3fc2ab9",
+      "bytes": 2823,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Rig_Guide.txt",
+      "sha256_before_setup": "ae191d81fa58e3ef8451a56ce6b244cbb0a6037325c3b252956d70edbf794bed",
+      "bytes": 1986,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Rig_Overview.png",
+      "sha256_before_setup": "32529df5e303f1a198600b3fe6dd853ac538580e42abae764cf04aca63bf6b8b",
+      "bytes": 680975,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Run_Tucked_Elbows.gif",
+      "sha256_before_setup": "a6ba3f80d00cd2d9c560bf0b2a5ba8aaa2605db4f02aea1b4b7ed88beb083c03",
+      "bytes": 3202310,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Sad_Walk.blend",
+      "sha256_before_setup": "8dc06211aabb084649a4d54e83d37e3192c970bbf963cbb5619c603de3bf3a60",
+      "bytes": 2165613,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Sad_Walk.blend1",
+      "sha256_before_setup": "66c9267780ddc3eaa650f04b9362fb881e421c7b50ce92f7468669c0ecebbab3",
+      "bytes": 2162421,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Sad_Walk_Guide.txt",
+      "sha256_before_setup": "db31a5315e28333691176ad815fe99b6cdf7ed2ed289c92103fac5f7affe58d7",
+      "bytes": 1672,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Sad_Walk_Preview.gif",
+      "sha256_before_setup": "10e02dda852957c5fccef687f45b2e18eddfa605f26b29262cc692ad56fa213a",
+      "bytes": 5955380,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Sad_Walk_QA_Poses.png",
+      "sha256_before_setup": "72022d4f3187db64b5898a2fe3afcb6a9d22d23dc80f549e8a766b581fcb3834",
+      "bytes": 690214,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Sad_Walk_QA_Report.txt",
+      "sha256_before_setup": "ec167f361fc191a38581fc4776d8ff0973831a53e3b2ea03986db3af1ced76a4",
+      "bytes": 4210,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Sad_Walk_Smoothed_Preview.gif",
+      "sha256_before_setup": "10e02dda852957c5fccef687f45b2e18eddfa605f26b29262cc692ad56fa213a",
+      "bytes": 5955380,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Walk_Preview.gif",
+      "sha256_before_setup": "185d59066806e0b79df2557a11bd4d32222a7aff558971955db66ea3e29a9cb9",
+      "bytes": 4075426,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Walk_Rig.blend",
+      "sha256_before_setup": "0f581df5516a9c1f3433bbdfa584e63d13cb3a6aa81d74dc42c15e61a0c4731b",
+      "bytes": 1583343,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "Ronin_Walk_Rig.blend1",
+      "sha256_before_setup": "6b389c6242e73b8cdef4cc0e6ff5a4f0df41b02c061da6a4abe48e9096481986",
+      "bytes": 1583166,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/.DS_Store",
+      "sha256_before_setup": "077f6c4ba78312af78a0a29e278c154af123bf32e3614d45bb1eec5c55719ed1",
+      "bytes": 6148,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/jump attack.fbx",
+      "sha256_before_setup": "84a0239d039acb92f0db83019e3646312a99672e5ed5946544e6fc92ade3f055",
+      "bytes": 542129,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/left turn 45.fbx",
+      "sha256_before_setup": "da20371c9b173107b424664f019a27a0cba1f49f3e0cc30618232fd56c92b5ce",
+      "bytes": 332641,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant breathing idle.fbx",
+      "sha256_before_setup": "d76a1070e8d31a7cbb76675ec5493b1be8076ebdc590d0118574e2a9d228b6f3",
+      "bytes": 543249,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant dying.fbx",
+      "sha256_before_setup": "fc266b83f743096a6f5bdb745f0f45babd0235d1b73d7d992f4f3fc6d450eac9",
+      "bytes": 591793,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant flexing muscles.fbx",
+      "sha256_before_setup": "5788789eb6bc0c4806867f4850b49c2cb45ca28cb152fe2eb81f94130423100b",
+      "bytes": 610161,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant idle (2).fbx",
+      "sha256_before_setup": "41af092fefa8b1de4b3c5de083780e2b4f147a3bafced2df1cbc83aae3d92f58",
+      "bytes": 671169,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant idle.fbx",
+      "sha256_before_setup": "b5f39523766af2d8171d69077a24a36b74332350e2fdbf42928edaa62b804b8d",
+      "bytes": 1481713,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant jump attack.fbx",
+      "sha256_before_setup": "3b78feb6b31314b9c107ff173de3ede9da92228808157efa990f9dbfb4ca471c",
+      "bytes": 533825,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant jumping (2).fbx",
+      "sha256_before_setup": "aa853b154e45e7a3008e701f74aaaf472adf6502b18b884bf74715c451025ae2",
+      "bytes": 236017,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant jumping.fbx",
+      "sha256_before_setup": "721f4af032c4ac294e8811aa7734a852feb14f6994fb5705c8ac305f49970383",
+      "bytes": 469905,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant left turn 45.fbx",
+      "sha256_before_setup": "227ab4131785e7ed72ee2b5e2ee7e4c7d39e4ac092f96c1e3f3605a989548bad",
+      "bytes": 332641,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant punch.fbx",
+      "sha256_before_setup": "4ea63ed8bc2898674f184836a2389d55c785a2e955967fe5ef4543e8eec5984b",
+      "bytes": 294769,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant right turn 45 (2).fbx",
+      "sha256_before_setup": "c80b06e0f2f7758d4f8b590625e7654c302f67075abd0adc851ae16db5f5f018",
+      "bytes": 332641,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant right turn 45.fbx",
+      "sha256_before_setup": "1c64eb8aff06000ad1a615a73c6d9231677f45a359c772cca1787b5e2f31a52c",
+      "bytes": 413905,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant right turn 90.fbx",
+      "sha256_before_setup": "21cd3cdcb7ee28cf3119b7532bbf0f3ab8dad48c5f46e2485aa9b43f58ba7038",
+      "bytes": 404193,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant roaring.fbx",
+      "sha256_before_setup": "f2afd96fc048f061281068eedbbc758a7a28acd0def0b8ec3bff091dc884ea9b",
+      "bytes": 681553,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant run.fbx",
+      "sha256_before_setup": "77a782f8da09cbc3b8f2c0c7efef04ae772cc93f16b7c8b83263eb96dce54e27",
+      "bytes": 261793,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant swiping.fbx",
+      "sha256_before_setup": "463f2207b43372111591240f5cda2d0858705b1868ffd629edc8220b79951b23",
+      "bytes": 431825,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/Creature Pack/mutant walking.fbx",
+      "sha256_before_setup": "6e9f4adf6b8002707fde5dd8d9cd271c2722e669f7f468fd19d6bd35b3712e31",
+      "bytes": 322209,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/characters/README.md",
+      "sha256_before_setup": "7a98ea5c1ec2f33753e3abc883ebfcf07f45cd72f38f7e078c3ec88adcb4e198",
+      "bytes": 1181,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "assets/environments/README.md",
+      "sha256_before_setup": "1f816376c08afc7c5a3746e189e52eeba5a5fa60dac0ba1c1fcb8f10189d727e",
+      "bytes": 1012,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/.DS_Store",
+      "sha256_before_setup": "47a4e886bd2b28c38c96a849783162c89808240a0b8e0be0658f06eec6dc1a69",
+      "bytes": 6148,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/ANIMATION_MANIFEST.csv",
+      "sha256_before_setup": "dc8f402eb41e79a86cf3f67cc64355de30acf1f4f31eb3caa2de5ebab448ff42",
+      "bytes": 5572,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/ART_BIBLE.md",
+      "sha256_before_setup": "d0916d60d5976a8dbe492e12bce23583c812b16d1dbe8c09421e55aba5a76dda",
+      "bytes": 6815,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/ASSET_MANIFEST.csv",
+      "sha256_before_setup": "e22d0072076f8e27822cf8d3ebca9be45d80a8baeab0d3fade69383ec9c2e262",
+      "bytes": 20635,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/EXISTING_FILE_INVENTORY.csv",
+      "sha256_before_setup": "222c9e49edc017127828b4d62b8b89c85de0006e6601e9d909a6506afd97d8e8",
+      "bytes": 76187,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/GAME_BIBLE.md",
+      "sha256_before_setup": "d66238a6b1a10081631e13230d4637c529db43f16e0b8e88561e0531f7f427af",
+      "bytes": 5189,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/MANIFESTS.md",
+      "sha256_before_setup": "e09610bb9fbf6ba903ce5d1960d4476c2efc69ebcbae42d95e1626be481a1961",
+      "bytes": 5649,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/PRODUCTION_BOARD.md",
+      "sha256_before_setup": "1eebdaa43469e4beb2744ced3f2f62b76e4d943d31f595f5937f3079face582d",
+      "bytes": 5991,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/RUNBOOK.md",
+      "sha256_before_setup": "e438f99f97f29a33f660fb9e972433938b941a63c613fe7e34f97eed4c58eb9a",
+      "bytes": 6422,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/SETUP_CHANGELOG.md",
+      "sha256_before_setup": "bedf723d0efa3a99d30c8e50e6002ff93aee5ad2e25d5a1b58668c59a50226ee",
+      "bytes": 6804,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/inspection/BLENDER_LIBRARY.json",
+      "sha256_before_setup": "1f76ff73ea2338f37cf5d57121b2aa48f152934c5e520ae190b4da3731f427e1",
+      "bytes": 5292,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/inspection/BLENDER_SAD_WALK.json",
+      "sha256_before_setup": "c956c67e62c65f9779a41438a60cb932b235b81c5507fde97f16e0c547cec633",
+      "bytes": 2666,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/inspection/BLENDER_WALK_RIG.json",
+      "sha256_before_setup": "71074679f3a81bb9c7a5bbcfeede1bc521cbb215cc52d9fed0fd92f84a8745a7",
+      "bytes": 2046,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/inspection/SETUP_VALIDATION.json",
+      "sha256_before_setup": "b87e6df690e711b8038e9b4d30a88fa127eabd96ebc3afc07b873c3f60c200d1",
+      "bytes": 1714,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/workstreams/animation/HANDOFF.md",
+      "sha256_before_setup": "e3a07ae38daf21fef757b6a5cac4574df069a2d0c00fb27766963c47729e8f16",
+      "bytes": 978,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/workstreams/environment/HANDOFF.md",
+      "sha256_before_setup": "e30b89fddd19bbbcffb2736338835b60ac2bd6e9c1cb4c8971aa83bde594103b",
+      "bytes": 993,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "docs/workstreams/gameplay/HANDOFF.md",
+      "sha256_before_setup": "b3d8a4b371f28c281ffe105f325dbdd9559288952fdbbe2a4c04b33151eee8a9",
+      "bytes": 1005,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "godot/README.md",
+      "sha256_before_setup": "f88236a291f5494b88340464f4578dbb2aea37f8d4a49e2acef2786b3e40129d",
+      "bytes": 1577,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "mutant_run_build.log",
+      "sha256_before_setup": "89e61f881a50d0369084085da083dfc3c0fe41cffcc71d994aefd90415caf72a",
+      "bytes": 7247,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "prototype/README.md",
+      "sha256_before_setup": "50fb38642f8d0ce83bc81749687058fb48d030a54689e0ab67ed5f6337284f65",
+      "bytes": 826,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/anatomy.png",
+      "sha256_before_setup": "86d82a7320b57a5f880f43d9f74d986527b415471b6400409388947b0eb66898",
+      "bytes": 55327,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/bone_layout.json",
+      "sha256_before_setup": "e8f27a0351e88789a0b46c2421780075ce5776b22cda70aebdb1f85c57e13212",
+      "bytes": 6701,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/bone_projection.json",
+      "sha256_before_setup": "101651251e922dfbe88be02a8ba9ff449be5550d74da3bb6724e1c6371f3aaa2",
+      "bytes": 14716,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/geometry.npz",
+      "sha256_before_setup": "2fd0df2ae9eb9408d4b0bef163c5513f66ef3de0976036e1fa1bc4e386b7a62a",
+      "bytes": 1134888,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/inspect_back.png",
+      "sha256_before_setup": "af1bf2c1b35bade3ea2c09e8311628f73abe0f93ade86598aae7d4596eb9be8e",
+      "bytes": 598150,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/inspect_front.png",
+      "sha256_before_setup": "d662c8e3586f21eb12cf8638907824dd5428ec1eb0bbb63daa1b94bf71285a47",
+      "bytes": 608878,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/inspect_side.png",
+      "sha256_before_setup": "133f53ba638f73c86a71e4f72370724f47a17b6e319c2719e13b80732ddccd03",
+      "bytes": 699961,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/normalized_source.blend",
+      "sha256_before_setup": "444a04508421fb6eb291b804ec4c02ec40a2a139ddd635a809aa04c15beffc7d",
+      "bytes": 1310316,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/qa_metrics.json",
+      "sha256_before_setup": "20d52df0a20760eb4026a514f079a984edba465b9105386ee085079da67cc2b9",
+      "bytes": 28160,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/range_09.png",
+      "sha256_before_setup": "c4f15c9e40e2211b7299ac38464a3d123201859b544d611d931007495168d3fd",
+      "bytes": 869649,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/range_17.png",
+      "sha256_before_setup": "2fcba4725555d1465a249af14cd4c6cdec15f636241d78554c3a5ef0b4973928",
+      "bytes": 870012,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/range_33.png",
+      "sha256_before_setup": "78d800743db43bb1cde83f7c267b59e53c434a674676383462047a98151449ac",
+      "bytes": 876168,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/range_41.png",
+      "sha256_before_setup": "2d51bdbcdcc57c8f86a51716195ca30f82ddd5d5776e2e1353ef38f6694e9daa",
+      "bytes": 872531,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/rig_front.png",
+      "sha256_before_setup": "00e18dcd41761e18bf3087bae925c8140d4634b4bd946e8339242321572c147f",
+      "bytes": 885211,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/rig_side.png",
+      "sha256_before_setup": "ed79028f6b38d7ca1be238f7a481a600e359d8afe4c7d01c758dd312f5df7466",
+      "bytes": 833315,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/skin_weights.npz",
+      "sha256_before_setup": "23c320640569bd4214a0f729a51e537219be6b3b5cce2dac70569c071c211862",
+      "bytes": 5928706,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/source_inspection.blend",
+      "sha256_before_setup": "b2f86dfb2eced184236160484c90de79a2e3d49f22a1ea1dfacd5803842a92ab",
+      "bytes": 1304172,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/001.png",
+      "sha256_before_setup": "5fab868f96536ac2b7162d417bb0ac5a98bea5180f632e1bac18e108b95ad253",
+      "bytes": 569657,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/002.png",
+      "sha256_before_setup": "df7509491127f1be06302038a1144ec5556ebf4049aae7a5d427c527c3341d7b",
+      "bytes": 569645,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/003.png",
+      "sha256_before_setup": "1399f24271d5d59588c8d9fd950f1a9b2e51ef8a4344115d261abe8bfd0d892c",
+      "bytes": 569340,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/004.png",
+      "sha256_before_setup": "c7283afffbff154b34fe1268b0db4d6b645e6b3b544fe92820a25b0cf8eedbb6",
+      "bytes": 569369,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/005.png",
+      "sha256_before_setup": "dc5ffaec3242a36a6541c21f164775775e0acdcf2a337f34493205f9fa0bd865",
+      "bytes": 569350,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/006.png",
+      "sha256_before_setup": "98aaea244050b1b2995d6cbe2f6bb5fccfc1c1a3be5b368dbe5e7c31fc378923",
+      "bytes": 569405,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/007.png",
+      "sha256_before_setup": "8e0774051ce02fd849a09dc423431f4027b1f0b9bc101008b425fd5806dce545",
+      "bytes": 569849,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/008.png",
+      "sha256_before_setup": "a9ba05a01f3bc3e0a0977faae508fbf8974a559786aec56bd6cada338341303e",
+      "bytes": 569516,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/009.png",
+      "sha256_before_setup": "7b23bc0be293a67c19fb6f960946667b1a7940ed2d432fbca8c4204304704a67",
+      "bytes": 570720,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/010.png",
+      "sha256_before_setup": "b405a807129abc2f5387b1a4c8b69dc4088e531a0ae0960f1b535120475860bc",
+      "bytes": 570999,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/011.png",
+      "sha256_before_setup": "72584027fda5a9b1ffcb6c6ff02eefe0ff1da3057b405333d7f44d516c72907e",
+      "bytes": 571284,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/012.png",
+      "sha256_before_setup": "de38020266a23b2db59e521c8954debfb14569dcc9d1c96302de9d269465d76b",
+      "bytes": 571492,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/013.png",
+      "sha256_before_setup": "2f065e331bfc1663a5bd040d2865a0875be5063ea1450e9648a2fd8c13908701",
+      "bytes": 571915,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/014.png",
+      "sha256_before_setup": "83c211c834a38a78d3a2cb5de7f6af05b0735b937f12d1bfadfe4283c63b9162",
+      "bytes": 572356,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/015.png",
+      "sha256_before_setup": "687ef12eace8ed0876876ef995ca6f67c3eacbbb0f7d1d8d6fa048135cc3b90a",
+      "bytes": 572530,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/016.png",
+      "sha256_before_setup": "cc207ac8aeefbd098d69166f64c02220a84e46574be171986d2bb387f129832a",
+      "bytes": 573036,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/017.png",
+      "sha256_before_setup": "30650ad49f35728bbceddd6ca192e97a0affb2e564643aa31a2848edf0100bb1",
+      "bytes": 574366,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/018.png",
+      "sha256_before_setup": "0a4fba9cd0d3233e288c247257610aee081404ae7c1832b235a9ed731b52eea2",
+      "bytes": 573412,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/019.png",
+      "sha256_before_setup": "13b3e4f7ec8269a56f3e6ce23c5edb04317a39841891f9f6861684f04491eb5c",
+      "bytes": 573261,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/020.png",
+      "sha256_before_setup": "9f937957d0bd238b696a060d1f90b98799d969dd7779ef3ae8968c2dffb4e3c6",
+      "bytes": 573077,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/021.png",
+      "sha256_before_setup": "41db0867a11b8d8cb11ae26929c04de823d8e59225f403d5f368bbdee1068964",
+      "bytes": 572710,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/022.png",
+      "sha256_before_setup": "83031f3259ac9b7e2647e071f113258b974c73eb46a07b9da6b1343dc67d20ac",
+      "bytes": 573638,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/023.png",
+      "sha256_before_setup": "374d85c0c657aa076f19b810262cf8c6141a439f8f55c90e0d62a6767b848342",
+      "bytes": 572880,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/024.png",
+      "sha256_before_setup": "cb1e7bf7a18e03d25046b402507a879ade7db0618cb9f5277f9f7ad81ae16aa9",
+      "bytes": 572421,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/025.png",
+      "sha256_before_setup": "e156abbb8c9ae72fca73e610a38f9107a60ba65cacb76b25afc3f7e4724be6b1",
+      "bytes": 572397,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/026.png",
+      "sha256_before_setup": "bcc5b8057cd616f07d560e19ba7944d89072c6387123dbdc14ed4d126eff50fc",
+      "bytes": 571393,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/027.png",
+      "sha256_before_setup": "3e70a590755714f60a8919ba90b147afc8eba94244590f059c3227287bdbec07",
+      "bytes": 570529,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/028.png",
+      "sha256_before_setup": "167c12689e43437326012e4008c81d5e5b339a18a1a6f90e4c9aa9c946349b7e",
+      "bytes": 569947,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/029.png",
+      "sha256_before_setup": "af200e46809e7e01ea5dc02a30098405aa345c76d7460a1baeb678e21dc73615",
+      "bytes": 569499,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/030.png",
+      "sha256_before_setup": "120c6dee1480e7cc19030b6e24971669268297d52b6fabeed785aad79ac37ab2",
+      "bytes": 569223,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/031.png",
+      "sha256_before_setup": "08402a6e1d5dfd1d1bdfa405e54928c8544c3b31e77db1cd8907b7baf7d1d905",
+      "bytes": 569798,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_frames/032.png",
+      "sha256_before_setup": "df028379915773ca6fa8eba06a88c544701815d5a3cd062b4208ed7bbf842d33",
+      "bytes": 569399,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_side_01.png",
+      "sha256_before_setup": "883c16b5043b69d0e9b6bfe76fa84047d5f514d7636c42e6aee39f1a81132ac5",
+      "bytes": 840970,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_side_09.png",
+      "sha256_before_setup": "52b40c1a21cc7106271f25115ed978b47a5c710d28603931a793185978cd9891",
+      "bytes": 840800,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_side_17.png",
+      "sha256_before_setup": "b510940af60b4231a8efb9a36e137096c4e73ede239142ccb73f27d851663abc",
+      "bytes": 847542,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa/walk_side_25.png",
+      "sha256_before_setup": "4bd2acebae9ad9d7006430998b6fce315b85f73162025308e213f01bcfcc01c6",
+      "bytes": 839991,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/.DS_Store",
+      "sha256_before_setup": "584db2f721821a06283526277171024f5bf6f277ae6a572ff7761e6bbe6b3ce1",
+      "bytes": 8196,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/Ronin_Library_before_expansion.blend",
+      "sha256_before_setup": "9206cf96a17bcef42c41112da21b7a3a880193a5fae59cbeedd0a7fd4584d263",
+      "bytes": 2632335,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/build.log",
+      "sha256_before_setup": "693860ccc94dee51e7d966ee8a823b2c66766c0d89e990876036e74d1657d788",
+      "bytes": 486,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/deform.log",
+      "sha256_before_setup": "d80b4b920fde74d0b610d896a03c2f9c5b7aecee99f59dfe2e22a484eaab7cf6",
+      "bytes": 5078,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/expanded_original_weights.blend",
+      "sha256_before_setup": "641c827f78226be34bd85a4d7bf8308e479ea8c5616e2e6bae6a575411fa1144",
+      "bytes": 6358522,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/final_delivery.log",
+      "sha256_before_setup": "99e81d387c4c111aa627c52838ae093f8447251d6471c87af8b2c81338f8d7b3",
+      "bytes": 1330,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/final_delivery_check.json",
+      "sha256_before_setup": "6e8a9cc515cf52bf3f70812ea174f715b4e1c1c6b72a94fef09350326b8bcd2e",
+      "bytes": 1617,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/final_qa.log",
+      "sha256_before_setup": "21333a1d7617fc164a806965b2eba2003da1d82f8e5961cb86443e063b35e8c1",
+      "bytes": 45112,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/jump_contact_refinement.json",
+      "sha256_before_setup": "54d2c415e5f814a25875d132cdcebebfd45e340acca017f687ffd872d15aecce",
+      "bytes": 70207,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/jump_final_qa.log",
+      "sha256_before_setup": "52cf095da93c29a99e75d01e172d27404121a2cacea023307e3ac9e46dbd433f",
+      "bytes": 8716,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/jump_sequence.jpg",
+      "sha256_before_setup": "478589d5afb8ac68f6366b7f129ea22fb9c50ec50820a0a73fa90564c0dc829c",
+      "bytes": 75893,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/jump_world_margin_qa.log",
+      "sha256_before_setup": "0eef7cfb0e73030298053a821f27fd7ef596fa9bc81c7896a051d6a859e6fc65",
+      "bytes": 8717,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/mantle_binding.json",
+      "sha256_before_setup": "6d55fdf3e4161acbb6d37fff6c56957fc85429e9ac9134f1c5f47aa8bcd24714",
+      "bytes": 385,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_001.png",
+      "sha256_before_setup": "ce09297617a0f4d2fa5cb82b11c207b0d1cd782fbae59dee1024ec52df62fdf4",
+      "bytes": 561384,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_003.png",
+      "sha256_before_setup": "981d09a1648712d32bf18057762bd322c508da88aac8fd7bb0fb3589c27137c1",
+      "bytes": 561784,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_005.png",
+      "sha256_before_setup": "c67a59cb248972f8c87e8d56ea86cc589dda865ff0bf3fccc2c48d510f0dcfb2",
+      "bytes": 563130,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_007.png",
+      "sha256_before_setup": "b67c9afc8116d04910d77af7dfe9484825eda1353536015ecabe9d62d20fa075",
+      "bytes": 563840,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_009.png",
+      "sha256_before_setup": "b03ddc5b6258a2d937ce3ce7b9a42bd298410ace38ce4327b85f3b341b472542",
+      "bytes": 563786,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_011.png",
+      "sha256_before_setup": "af396a1966dd75942c59ff16e963e6cea055a2658f7b032ade1da97d4e14d664",
+      "bytes": 564011,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_013.png",
+      "sha256_before_setup": "103956f07dc54f87da3f23661fdfdc9663c4b67ca49db40aa206324520e3290d",
+      "bytes": 564239,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_015.png",
+      "sha256_before_setup": "8bf04a70c90b4aa95d62c946e18ca9f6f4ab23c3c8381d2a1c48df0a577b4ac3",
+      "bytes": 563563,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_017.png",
+      "sha256_before_setup": "0941b1f7afba584154db433969e2825726b9d239b23d25edb9d9b97908e8d9f1",
+      "bytes": 562760,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_019.png",
+      "sha256_before_setup": "1e9dfc1be13b1aa3cd27b936a5c12cb7cfc69f63076bb8075f59ab57411ac721",
+      "bytes": 562588,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_021.png",
+      "sha256_before_setup": "90ddfa68e23465c40efadcafbb5149212c1adba30dbd1219ee1c826a1e9504ef",
+      "bytes": 561605,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_023.png",
+      "sha256_before_setup": "ed59009df2c3e6913e925b63c6e98f83e2e3764311996a9cea9127467cc2a465",
+      "bytes": 561315,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_025.png",
+      "sha256_before_setup": "bde1851b70cb3c16e87d5d38587f8f9fe598a8bf8df9f709e6d070703f5c92bb",
+      "bytes": 561339,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_027.png",
+      "sha256_before_setup": "f99fa7b365f8d8ba1f2b0faa6f371b0189530bc06d609049c99b487ffe863ee3",
+      "bytes": 560800,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_029.png",
+      "sha256_before_setup": "7f1c425ced4f7aba17f32146a8bdfc040880ce7e4e6c708e76e6af061df36f84",
+      "bytes": 561348,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_031.png",
+      "sha256_before_setup": "0dea30195d63c4860a20423ecbf1f5852dc30037a6823f587a646b44fa52596f",
+      "bytes": 562476,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_033.png",
+      "sha256_before_setup": "938383434ff2d210c44f7fb6d69e35a2b70459629d68b9bfd240cba61e739dc4",
+      "bytes": 562764,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_035.png",
+      "sha256_before_setup": "bb93663d92fe22432cf647fe10a5011b000efa8d2c8ca6f3314d2624f70370fa",
+      "bytes": 563004,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_037.png",
+      "sha256_before_setup": "50fdfca6e1d7eb13a6b1b762907fd1ea3278e515aafa90a199de57aaa3afd188",
+      "bytes": 563304,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_039.png",
+      "sha256_before_setup": "59da6c3efd0bad405ce4440a3ace3bf48db2c17082fb93ee31880918898e889c",
+      "bytes": 564071,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/frame_041.png",
+      "sha256_before_setup": "e83aa8acb4a6a898037e9e256c8f06d31dc02b7fcfd716f8a019c00dad25373b",
+      "bytes": 564411,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/pose_001.png",
+      "sha256_before_setup": "a386577eca81f8ce40ee0c6bd3273e696eb994ade87e0cea5547b6ce75ba78c5",
+      "bytes": 561384,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/pose_009.png",
+      "sha256_before_setup": "cfcb1d012aea89e428e30640986f141e13aacb97435937de60bfa4e9995b3717",
+      "bytes": 563786,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/pose_017.png",
+      "sha256_before_setup": "8bf583b2db48dde0bb098e90d45426a8d8f1186cc3906d9d20968743bf6b664b",
+      "bytes": 562760,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/pose_025.png",
+      "sha256_before_setup": "56ad19bccd4260f8de5517f14d0b100060df41845b5652ef1bdc8e2ee8d996a5",
+      "bytes": 561339,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/pose_033.png",
+      "sha256_before_setup": "43704fa49a403b886127bd937d54e47c43409624de179f51ec42898e6052d2d3",
+      "bytes": 562764,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/pose_041.png",
+      "sha256_before_setup": "12d6d56b2ede287c48dfd6e8f811c332d45dd33a74e6f9a4c628627d83e3f56e",
+      "bytes": 564411,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/side_009.png",
+      "sha256_before_setup": "2698a3c34b47b2ae5d9f5ddc22eecf7dc42a2b1b94d987cd91a0fa48eabdd1dd",
+      "bytes": 554578,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45/side_025.png",
+      "sha256_before_setup": "123cd2927a98e7708edf161a98b9f45fd0d3bba2b6cda5c814be28813577cc9d",
+      "bytes": 564848,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_left_turn_45_samples.json",
+      "sha256_before_setup": "d7b9a8b5ccbb6b63b3c214469d52535063990d9ff277dd03ae1cf1aaa9968687",
+      "bytes": 345152,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_001.png",
+      "sha256_before_setup": "e25c9264658dbabd026fd2d49176f39cd09dbbbde1fc626dbaba229b41dfa657",
+      "bytes": 561384,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_003.png",
+      "sha256_before_setup": "483811711ea6ce1eddc37fd212f36c08b85235648788793208b0087461ed46d6",
+      "bytes": 561248,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_005.png",
+      "sha256_before_setup": "b80e8976b50fca833e077e601a17fe5081b6f03511b2c82950aaa39d57c7bfa8",
+      "bytes": 561543,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_007.png",
+      "sha256_before_setup": "b391c72b254ad723a4fb43c34c25b158a917a52b0146374daa4d60a8a59e9695",
+      "bytes": 561780,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_009.png",
+      "sha256_before_setup": "9b41f079074da09770b887f40cfe01067d7155afc378226760dfb476bc6522e0",
+      "bytes": 561377,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_011.png",
+      "sha256_before_setup": "9f5d4cf477619ac0eeb439908d9a3505638e09b6827b19d1bf4b98f9bb5f9aa1",
+      "bytes": 561464,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_013.png",
+      "sha256_before_setup": "f2742e85eb01c6cf046ae2d1e6ca8f5df7be70f784ed3ae3a2a85e5b674b280c",
+      "bytes": 561715,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_015.png",
+      "sha256_before_setup": "e79b6c2e1507f7d4e13d6d1e008498f5a1ae1ad841aa33e26ce222a3af2f82ea",
+      "bytes": 562281,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_017.png",
+      "sha256_before_setup": "e90cf9bce05cac1acbcc21a7b82610bc4c1a12dd8cb89e80c4b583400e9b2d3b",
+      "bytes": 562407,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_019.png",
+      "sha256_before_setup": "eb98a0e244cab11a18cde3f66d6d291071e8fb2773d20e3629dfa80948f09e29",
+      "bytes": 562218,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_021.png",
+      "sha256_before_setup": "a090c997ce455e891b31814e48c123f6a58be78c5c6528eda6802f0e42bdb4c1",
+      "bytes": 562164,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_023.png",
+      "sha256_before_setup": "6b52bb4c986a20fbe80c9049a1e3e4d39e943dda3393983b2ee948450c709e0b",
+      "bytes": 562257,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_025.png",
+      "sha256_before_setup": "b41ef7ee03b7d472de023628be627817257b54a01e8f39934c7cf3929ba73410",
+      "bytes": 562721,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_027.png",
+      "sha256_before_setup": "52def301d11f3bef2d32bd687b19ffc350dcd170860afbe35cb5aad7b3a711ae",
+      "bytes": 562708,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_029.png",
+      "sha256_before_setup": "118a5dba9ff00aa38b56f3d56e1178a9f0fdac0688ee9de1fe40aaf010f6b68a",
+      "bytes": 562619,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_031.png",
+      "sha256_before_setup": "19b210902e32da168b48f3797e89764a7e89b9f20ad2f1b842e719d7d43ae765",
+      "bytes": 562514,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_033.png",
+      "sha256_before_setup": "5e783801491f6159e8875a7fd9045a62cbec5d1b5e9f348ea9fc8dcda3ce6ce6",
+      "bytes": 562592,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_035.png",
+      "sha256_before_setup": "ef0103b09d7607dcd2c3fb799b908bfcf851c9692514978221b201b383cc8f80",
+      "bytes": 562552,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_037.png",
+      "sha256_before_setup": "aa5d1f3079f0c59f22912315a2cacede88eb0b6a1e294735d1d6716119056024",
+      "bytes": 562623,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_039.png",
+      "sha256_before_setup": "2a742fce3b86465663cf95fddf5be2bb13bae300435f9ca1751ee6d2efca843f",
+      "bytes": 562035,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_041.png",
+      "sha256_before_setup": "a1894827e7eb3a837be2743a38e550d65d9dcf2c87b78a66e2486a394d24257c",
+      "bytes": 563082,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_043.png",
+      "sha256_before_setup": "83c95ec6f5b6921f1789e6f916e77dd2405755d7e7d5f98bdbce354bbee0d6b8",
+      "bytes": 562587,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_045.png",
+      "sha256_before_setup": "580293e6e62b6778bc82ff1bc03e09357567001fa1cac39469885e3a98136cc1",
+      "bytes": 563012,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_047.png",
+      "sha256_before_setup": "9ffa1d699c783ceadba042df58967c17667cee3526ce0d85a76dc6cda305c729",
+      "bytes": 562501,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_049.png",
+      "sha256_before_setup": "fe72febf59cb34cde7c97b4fe783525e1bd27c119ad8f2d1270b013f31787453",
+      "bytes": 562964,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_051.png",
+      "sha256_before_setup": "76e03ca249d32d01412eb481cf7c55f982398a1a23b634123b73467f39522e57",
+      "bytes": 563023,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_053.png",
+      "sha256_before_setup": "333c4713bfd2bd85b15c9d72f976f59184a83609701408fcd16ef7d25a14922c",
+      "bytes": 563171,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_055.png",
+      "sha256_before_setup": "ef3413894d2b208e19344d1404163d53c00c526fbb7fe82cce84908f242b9034",
+      "bytes": 563326,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_057.png",
+      "sha256_before_setup": "0c339412f519d67b877587b01daf87f4b6d3803ee5dd6d8a3292a164b49e8d72",
+      "bytes": 562730,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_059.png",
+      "sha256_before_setup": "0ef87ec659eedfd82baa861c0adb3d35df2039c7e24ce2e397ca8f721ee9010e",
+      "bytes": 563787,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_061.png",
+      "sha256_before_setup": "16744c9d4e089474fdffc0b056d2bfe5926e69746d09ca5bd6076c6e4e5c469b",
+      "bytes": 563363,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_063.png",
+      "sha256_before_setup": "b0d94011048d6be530f737721b48b19e89d2064cb0fd70755714f9fe0ba88c34",
+      "bytes": 562901,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_065.png",
+      "sha256_before_setup": "1f1b1f3b9e9b82216f58fd8e999aa42c51e1d3d19d69dfa9472c7c26482fa301",
+      "bytes": 562503,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_067.png",
+      "sha256_before_setup": "3600524402627db24003b1e7a2a5ecbcdeb9689aa6f9c4eb99ddf6664ca4645f",
+      "bytes": 562664,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_069.png",
+      "sha256_before_setup": "9cd52f182cafe44f9ea7c5d78eaf0c2931314a1d55ce125ac60ee0d8e18419be",
+      "bytes": 563262,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_071.png",
+      "sha256_before_setup": "f2a0b8ceefe25506879a9689154aa5fd5d72a946cd6243b331c5840947a5dd8d",
+      "bytes": 562482,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_073.png",
+      "sha256_before_setup": "4b3ef8f9b4c4f4adcfed3c8200401e12b3ec59e50c4564d8092b33535d3eb234",
+      "bytes": 562965,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_075.png",
+      "sha256_before_setup": "7a1e4d65863c37eb1341f3ffd84aa5682afac47a91c5246d7f61c92d3e176daa",
+      "bytes": 562301,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_077.png",
+      "sha256_before_setup": "e265fef998b76d90c89cf4aa0cd14093e8fa490e8fa09fd45e44cc2f3b23eb26",
+      "bytes": 562399,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_079.png",
+      "sha256_before_setup": "4aab116e089e9370f9188322b743963e594a093eeb9c4f610055bf2a63afed8e",
+      "bytes": 562777,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_081.png",
+      "sha256_before_setup": "6dd535ceee0dbef15e96c85755b40ac77d087037a962ab84c8fd6a2119c48dc5",
+      "bytes": 562446,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_083.png",
+      "sha256_before_setup": "10b3cae35feb7e54d9595039915f7ba140d0a28bc3461f9b392baf8722e4b3fd",
+      "bytes": 562447,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_085.png",
+      "sha256_before_setup": "39408ba4f4c470f393a24f644c60e34911921dcf1622eaf30e077fc1fc337b1f",
+      "bytes": 562365,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_087.png",
+      "sha256_before_setup": "7f70cbcfeab5d1179598c51487275fdb6c2fd6d491ed74fa05d64afc433f9f42",
+      "bytes": 562581,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_089.png",
+      "sha256_before_setup": "11efee2dddc92ae10bcb962854e8b5f395971f21cccec2c6182aa4b2ea6e7743",
+      "bytes": 562770,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_091.png",
+      "sha256_before_setup": "a939af570af17f175281a3cb2d93a9765e643533bd5d9cc5069f6aa37d0fb5dc",
+      "bytes": 562649,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_093.png",
+      "sha256_before_setup": "4b6df4905de37aa20b31de409bea57c3ed287ef9f8d3cbe9d185fefa0117c586",
+      "bytes": 562547,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_095.png",
+      "sha256_before_setup": "850229db22250be22c452263c06b8fbb633d57645a5285ace20893a7d09aa4f0",
+      "bytes": 562404,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_097.png",
+      "sha256_before_setup": "b08f8c279cb67633baa23283b8269c1b22acc68ae5ef57ab5e841904a8918cdd",
+      "bytes": 562249,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_099.png",
+      "sha256_before_setup": "917d73240f70a90938674a394932f27c1cbe9aaf336d1720e2635d3799945df2",
+      "bytes": 562248,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_101.png",
+      "sha256_before_setup": "1fc4c9f683459b8c250790dd3f9176938797305cb8a4c27c65e701dae00e2fcc",
+      "bytes": 562374,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_103.png",
+      "sha256_before_setup": "af62df08d77f84a0eb6e69369ce1ac07809f3633bca69aa97fc59743c750190a",
+      "bytes": 562778,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_105.png",
+      "sha256_before_setup": "e18ad3521ccd5cd43b2a833267a10fe590a53cce4bf7995a5286f026b52ea8f7",
+      "bytes": 562139,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_107.png",
+      "sha256_before_setup": "a20e1faa51cf5f3334c3f6987a354af2d7ab0cf26305997f73c76fe2e1cad07b",
+      "bytes": 562259,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_109.png",
+      "sha256_before_setup": "25b85f6428be65a76161408be67376991fb1d7f4f1a6d91a671e31412671bb16",
+      "bytes": 562201,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_111.png",
+      "sha256_before_setup": "87275a47950903ebddd1d6ddb654e97bf7ed2a41e76c558a4e511018046494e2",
+      "bytes": 562269,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_113.png",
+      "sha256_before_setup": "3f575571378c2364a52a46a7c3cca07d71218a4d775fe11437982df98cf37634",
+      "bytes": 561906,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_115.png",
+      "sha256_before_setup": "641e3de40d7d2a79e6f60f92730c7ccff543bef24bcd696f8a711660f120c681",
+      "bytes": 561915,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_117.png",
+      "sha256_before_setup": "4358f0258bc0d0c93937fdc20cef268302d17c589e68f14daee294ec897a105e",
+      "bytes": 561709,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/frame_119.png",
+      "sha256_before_setup": "ccaf7ef7c7b05c0424acf63bf686f377cca21946184c358620872d021c747af1",
+      "bytes": 561011,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/pose_001.png",
+      "sha256_before_setup": "4b713d2abf1fb9d83d3517a92a6a172a43fc7d6f1fbc10712cb6f54fabdaf30a",
+      "bytes": 561384,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/pose_025.png",
+      "sha256_before_setup": "7789275b020479e6f4fffd4ac0c26b8f49007484c11599a309e1d9e8065f7235",
+      "bytes": 562721,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/pose_049.png",
+      "sha256_before_setup": "1747246b27e0a205e3c0f99422602f53539b3573e27580ecb6d9ceb9ed093989",
+      "bytes": 562964,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/pose_073.png",
+      "sha256_before_setup": "0031335e630e5690bf8b40b5623b2986fc568a031b27a1361992d4292ce7d7ab",
+      "bytes": 562965,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/pose_097.png",
+      "sha256_before_setup": "1a147fc85255a00c02d503473104f1b113b41d13f546b5fb34f3235ed6d3c66e",
+      "bytes": 562249,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/pose_121.png",
+      "sha256_before_setup": "d96776cf97a5df18ec38d0f8ff85bf88c9fc043727fdac5fd6a137e3b056bb04",
+      "bytes": 561550,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/side_025.png",
+      "sha256_before_setup": "22d3e3da65610fa96abf900258afefe827ab6a324a449dda4a04f03c50d726de",
+      "bytes": 544641,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle/side_073.png",
+      "sha256_before_setup": "9801c3ad07c1ccebc9169491031e7beb646e40ad723857a4a30373a67a042d74",
+      "bytes": 544573,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_breathing_idle_samples.json",
+      "sha256_before_setup": "0688c19cbf83dac377936324808dd2240f267ac10cc5b48332c18b90036fab5e",
+      "bytes": 1025261,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_001.png",
+      "sha256_before_setup": "e0c75336fdf22beef6a002364aa44cf3ca413b083cdcdb667eff1bf050b18622",
+      "bytes": 531516,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_003.png",
+      "sha256_before_setup": "df47bc63042211adec3869f00e34437a9a186176a0ce3b3b5480b1684b5dea01",
+      "bytes": 531697,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_005.png",
+      "sha256_before_setup": "87321d6c0887112dc0aede2d352ccc89fc93c7febe79262de6195a2b69d702ac",
+      "bytes": 531627,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_007.png",
+      "sha256_before_setup": "e06bfccb5fb973953f5b8ab8d360c73274fdb082c107784f4f20b2815c90e21c",
+      "bytes": 531345,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_009.png",
+      "sha256_before_setup": "55843fe00e6236f792e62e86287c9cfa68884bf46a4b25244b8977579f86ad22",
+      "bytes": 531458,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_011.png",
+      "sha256_before_setup": "1c4af9bd1578042936e7f90c144df540fe7b5290e5a4667cc3403b59985354aa",
+      "bytes": 530412,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_013.png",
+      "sha256_before_setup": "c0f6b97ac237738189ef022c756bf3e3b53f065d8e16a338a06148a5f0914533",
+      "bytes": 527877,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_015.png",
+      "sha256_before_setup": "c859c32f947db393662641a115d441f4b14a58331ac05b17741560fe059a95d3",
+      "bytes": 526332,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_017.png",
+      "sha256_before_setup": "5cc63357366ff7cfcea2750d31f0da7a5b6dc98c56f01c7a1f490a6862b084da",
+      "bytes": 523852,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_019.png",
+      "sha256_before_setup": "984dabd32c2c6426af0e57012dad83b91bf8d364df0373507f39adab2cf6ee6e",
+      "bytes": 519397,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_021.png",
+      "sha256_before_setup": "d58f1730099514b481185f4f33358acd338c6a56617f387dc9faa58648f61faf",
+      "bytes": 519736,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_023.png",
+      "sha256_before_setup": "30d97e5584b4a556c648a97bd7f53372c734dbf6c6c316a8b8bd1f9fee60c3c9",
+      "bytes": 518189,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_025.png",
+      "sha256_before_setup": "95be3422d6b889e43d916b2fb5ef5f9ef21d17fd5e77224b12e8bcd4e7977248",
+      "bytes": 516899,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_027.png",
+      "sha256_before_setup": "2899a470dea6c00b70bfdaf944147ba9d6cd5b7962c48e63c5b72f66018e55bc",
+      "bytes": 516532,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_029.png",
+      "sha256_before_setup": "052faaaeafef01f79bf6c9a6a4c68cda2fe5c2825d5ea1febb1f3050f6f9fa02",
+      "bytes": 517278,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_031.png",
+      "sha256_before_setup": "54b68c351fdec52a64172e600dd937f0d26275ff9020ca9e770920ffb9287090",
+      "bytes": 521593,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_033.png",
+      "sha256_before_setup": "8915485ad226ced534d5065eec5b05a8793ce0649d6962c236636d7c03621d54",
+      "bytes": 525049,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_035.png",
+      "sha256_before_setup": "52c54be5bd615001109653499d75a3ee84fadc58706bfe0ad8075073f8cdd3ca",
+      "bytes": 526029,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_037.png",
+      "sha256_before_setup": "83c10cda3811cd187306ac7f92a2281aeb90504e6ed58baf0add6d2e2e365b41",
+      "bytes": 528480,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_039.png",
+      "sha256_before_setup": "1bd8e57846be7e688218703d3e04c01e27e01b16f48195e408905173153b477b",
+      "bytes": 532928,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_041.png",
+      "sha256_before_setup": "a675b165e79d65be51a7e4a8e15080990e2f9bb9d3acb5418475aaa27c6f9bfe",
+      "bytes": 534225,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_043.png",
+      "sha256_before_setup": "e3c0738aebe7b74da306477915497faefb20c4576cfb1c1c3b81ee033a5d01bb",
+      "bytes": 534697,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_045.png",
+      "sha256_before_setup": "2083c4bbd521365e339130fe91b854757a918c063f4319dd37e0673bea48e240",
+      "bytes": 530648,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_047.png",
+      "sha256_before_setup": "4c265630e24e93bc39c66315b2cc3f9412a4284a3fb5f9ab154b7903befd78ab",
+      "bytes": 529072,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_049.png",
+      "sha256_before_setup": "0d5b6626edc9e7a1fb7187dd3341dc018c4d11705d8ad2f6b1c0bc0af86e32b9",
+      "bytes": 530574,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_051.png",
+      "sha256_before_setup": "0a926da2879a0141d2e6437da69260e47d862fc8059e040ffe2fcbd6587505af",
+      "bytes": 530866,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_053.png",
+      "sha256_before_setup": "7fb3c3f0e54bb0ce1f223578fb0e2cd5e0535b0708b30ec7d9fb5c8194583cfd",
+      "bytes": 532613,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_055.png",
+      "sha256_before_setup": "e4a13839dce4fc8fa15c1c25fa79b32c76c2a111d47c3d5881cbb64cebd078a1",
+      "bytes": 535830,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_057.png",
+      "sha256_before_setup": "fcfe652f6fec5ff3e9216362dd79110c835f8832fbad1228bfb4be41d861de90",
+      "bytes": 535908,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_059.png",
+      "sha256_before_setup": "b9013d50e90d1eb2db72aabe3d1464d557f5f94ea718f8dd0ee1b0fa810d1dd6",
+      "bytes": 529711,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_061.png",
+      "sha256_before_setup": "368346ff9aaf9b6eb8f924f171a0a22ab9e8ef22d3eb8dcb1f553bfc839620d1",
+      "bytes": 525053,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_063.png",
+      "sha256_before_setup": "13c0d9ee6c7da6adb25a286d8c60a97c1b4fe75f472bec8c7c77775f4e4ed468",
+      "bytes": 520818,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_065.png",
+      "sha256_before_setup": "f1c6262a35f24a1dcc737d0022a0e49d687b41b0d5eb3492298213c38275f9bd",
+      "bytes": 518677,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_067.png",
+      "sha256_before_setup": "bb81edeef88af783f1020bd512704107eb25ab990a73bb1a7e6cfee98e24051e",
+      "bytes": 518219,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_069.png",
+      "sha256_before_setup": "9991cc1bd707934294e09c97582a45edc5842bd0eb9b5b4ac651297770710e56",
+      "bytes": 518723,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_071.png",
+      "sha256_before_setup": "13f5112e9137b62454ed34a005e188b6c6be3aa587850513a2c1324c95f33ed5",
+      "bytes": 520478,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_073.png",
+      "sha256_before_setup": "19da352c2ababe4a6745b388c8455ff3af5fa4939a224d15e79434257fef575f",
+      "bytes": 522006,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_075.png",
+      "sha256_before_setup": "7d0bcc334f5afb739034c5f0827bf6c6239c4583981809a83ebac787b201a0db",
+      "bytes": 524279,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_077.png",
+      "sha256_before_setup": "3d23ec1b774f366005daf7eeb0acf1824af0c69fd2f5dda95fad1f058925b98f",
+      "bytes": 526695,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_079.png",
+      "sha256_before_setup": "4fdae3ae571ce1d70183f224448b15fe4924cc2be882a7f29bfccbc66a3862d6",
+      "bytes": 528919,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_081.png",
+      "sha256_before_setup": "a207eb3641ed9e8c85e6453e8fb847f30c25a54ce6b78195ebed7f14dc67c025",
+      "bytes": 529840,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_083.png",
+      "sha256_before_setup": "639718cbef335f1e678e86ad99252a7401793dc4a9cec37d7c3cd0181e215559",
+      "bytes": 530661,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_085.png",
+      "sha256_before_setup": "0768c7740000575411e39cf848dd28693145788108f8d978a8abce2c1e51ef47",
+      "bytes": 531267,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_087.png",
+      "sha256_before_setup": "4d0943f3ce537c806153303a29c29a3c726fca3c0db774af48d919d85bb072a8",
+      "bytes": 531807,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_089.png",
+      "sha256_before_setup": "198e6ed1d4347e7356fc00aba3c6b12b9cf7285d60550db355093244bb160ce4",
+      "bytes": 531452,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_091.png",
+      "sha256_before_setup": "044bec6697cc4650790e29f17b8196676f1a79adfb288489b49d6f6423936cb5",
+      "bytes": 531991,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_093.png",
+      "sha256_before_setup": "5fa5d0a20040b87ce248fca9185e76fdcd731e7757771af94c3b792a152cc29d",
+      "bytes": 531237,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/frame_095.png",
+      "sha256_before_setup": "2f2d3f59f26510efa7ef69e3d46ea4aa5b85ea0ac601c0a3ee8ba2bc4fab1f7f",
+      "bytes": 531857,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/pose_001.png",
+      "sha256_before_setup": "a511a35b8e58c089eb1bfae74a356ae0d04c84fc824597df3e381d95952b661b",
+      "bytes": 531516,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/pose_020.png",
+      "sha256_before_setup": "a457ee9e215b2b28c331e26148003d381fd0e888fbeac5856c8c8f27f5936d6d",
+      "bytes": 519808,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/pose_039.png",
+      "sha256_before_setup": "fe40558befcbdca5819b5089bd614410b9607e1f9ba23254c5ad12bf00cd61d9",
+      "bytes": 532928,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/pose_058.png",
+      "sha256_before_setup": "cbd3257ff274e406c8d9266dc75638e154ffcd2860b2e057ae4881b686564214",
+      "bytes": 533064,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/pose_077.png",
+      "sha256_before_setup": "797b914424fee81a376f7c7259a22caba2bce0e3fea47675bcdb12e6c6480301",
+      "bytes": 526695,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/pose_096.png",
+      "sha256_before_setup": "11b177ce7aae957d620355639315787659ecb1322fae85bf60fd026062dfd252",
+      "bytes": 531516,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/side_020.png",
+      "sha256_before_setup": "726fe6f493dae93be1167cd6e2ad2db8e02a4603d21336260a25d79a7f4a9d0e",
+      "bytes": 511961,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping/side_058.png",
+      "sha256_before_setup": "05a1e42c35199a8f08d05fa4a2c980801d9c5ec27a009b0471f8eeed08a23547",
+      "bytes": 516015,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_jumping_samples.json",
+      "sha256_before_setup": "b6cd305d090e4844a0c7cd42c4529e80485587883ce1aa8cd11c52d1563a66f0",
+      "bytes": 1613607,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_001.png",
+      "sha256_before_setup": "cba3056cab6292d38219e215a929ab95ed24842cdc8362fc4925025f860cceff",
+      "bytes": 561384,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_003.png",
+      "sha256_before_setup": "64a2fa1d639cf896e2aec612ec9ce8558bcdb2d10c26d2d0c41e4d3ff0ca43bd",
+      "bytes": 561333,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_005.png",
+      "sha256_before_setup": "9769ce35e7781754be026c7d24ede2c758d681b597fb02828d918eb627f3716c",
+      "bytes": 557253,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_007.png",
+      "sha256_before_setup": "42f4636ff0e6ad8cd024ac822046b5eeec49d5e448e5e94a0ff603b2c3042d99",
+      "bytes": 554224,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_009.png",
+      "sha256_before_setup": "70c47a744e26706cd5a6e41e80e4e777a6e0e3a389db2ea966992d139ae6b104",
+      "bytes": 558385,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_011.png",
+      "sha256_before_setup": "5046f37e3d43293c2d7476c385f2d754b710eaab5a0c1ffb2e62fe3b820802e1",
+      "bytes": 554829,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_013.png",
+      "sha256_before_setup": "7e32bf99c5664ee3a8d8f15e563c5a5f505de9e53db70ad6e341560089e2265d",
+      "bytes": 552524,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_015.png",
+      "sha256_before_setup": "77d200260b3ad0e9d106db4d5b7e4f065923c7f3639a275002af8883d15a98aa",
+      "bytes": 549957,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_017.png",
+      "sha256_before_setup": "31698aca1c076aa01c1ff4d24ff6e9d276e7c3f2907406531343e264c11459a1",
+      "bytes": 550133,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_019.png",
+      "sha256_before_setup": "42bed40f17604c0be0c26e1ea27e52bb6312af7b55571ad7c28e3060928a094b",
+      "bytes": 550517,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_021.png",
+      "sha256_before_setup": "b3db4465bf3344bff199db33686cbca3a672f733e39f286f98cbf1fde3688b83",
+      "bytes": 551707,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_023.png",
+      "sha256_before_setup": "c53ca1a31232c5553ca4d56333a6899b3eaccb267fcff45e8e06e1d0342d8c1e",
+      "bytes": 555351,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_025.png",
+      "sha256_before_setup": "6feffd270c94461fa819c344fc2c0373939ca842e8d852063da6e08d69af3ceb",
+      "bytes": 557375,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_027.png",
+      "sha256_before_setup": "38674ea1d158c7c5960cedc43634372c5a12739ad12a6fe0a0a9579622c49734",
+      "bytes": 561413,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_029.png",
+      "sha256_before_setup": "b62f2948f71d41ee1a6739bb3c7c82fa6281334270e17b1d88f7cb3ce6b288a7",
+      "bytes": 560945,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_031.png",
+      "sha256_before_setup": "34126492b3aebd7fa2871a5233a26912120f108807b89c7ce98192f9583181d2",
+      "bytes": 561735,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/frame_033.png",
+      "sha256_before_setup": "8ca84f04df1ff5451cc3b615f613204cf37c42a8ca908abe41a8eb5ce58c33f3",
+      "bytes": 561596,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/pose_001.png",
+      "sha256_before_setup": "cba3056cab6292d38219e215a929ab95ed24842cdc8362fc4925025f860cceff",
+      "bytes": 561384,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/pose_008.png",
+      "sha256_before_setup": "140556bd29aa1f58c46921dbffc99a65a1c3f03d8d3c0f200e8a92710b65094d",
+      "bytes": 555791,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/pose_014.png",
+      "sha256_before_setup": "7bc22c1ee0a3756ac448148c22b35d3b9044a947969c48be4f893090c9e49a57",
+      "bytes": 550937,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/pose_021.png",
+      "sha256_before_setup": "a752852a1a1b5d3ca19cbda58259f637cb088cc6f5eeb751ce6a4a2e8933c10f",
+      "bytes": 551707,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/pose_027.png",
+      "sha256_before_setup": "85394c98a8bb8a7df76acc2c0fcc771515d04bc544e9d91e4ffd5b151fd58d15",
+      "bytes": 561413,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/pose_034.png",
+      "sha256_before_setup": "e106c9af664467312b7ba6b41060649734f90b09a286e069d49fcbf133e75f13",
+      "bytes": 561384,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/side_008.png",
+      "sha256_before_setup": "db650b955e59add6353287758d41c7a069709ed040c3ba17065a633b63bdd995",
+      "bytes": 550453,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch/side_021.png",
+      "sha256_before_setup": "60b4cd6d9fa79909e582c241046b4232c3b41c2b0061b3fbaba3c4ee5e1ebe8b",
+      "bytes": 562210,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_punch_samples.json",
+      "sha256_before_setup": "3e67282ccf179c908c9ca054b678364a7d61b36b9e7f208132de880799ddca77",
+      "bytes": 286273,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_001.png",
+      "sha256_before_setup": "17f14ffec5ab6775ad00211cc2b7858dec6b53d8a36871fc150ec798d21eb49d",
+      "bytes": 561384,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_003.png",
+      "sha256_before_setup": "c0cc4321b6436d54cc58e25d4c2b2f731d7b770ca072dda354bca0eebde69584",
+      "bytes": 561837,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_005.png",
+      "sha256_before_setup": "8026207f12b1f1a713a894d1426d57381ef5568473d202e7068114656b4d01ac",
+      "bytes": 562057,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_007.png",
+      "sha256_before_setup": "fff21f89809d5fe707d3b47e5e8713ad3ec11c3d9402d147fd1c2daae6e31ee0",
+      "bytes": 561366,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_009.png",
+      "sha256_before_setup": "f6676dca88363e87f7068a029cc911bbe7004f9774f79ec62bce42d5c21497b2",
+      "bytes": 561813,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_011.png",
+      "sha256_before_setup": "b1a5abf8c71dca1153f181ec4c51fe05e779bb588cee2a0dc16fb30343a8c042",
+      "bytes": 560858,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_013.png",
+      "sha256_before_setup": "85a2710768232caa367903796481b3bc357d7bdc2af03526e80c69c797e03924",
+      "bytes": 560321,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_015.png",
+      "sha256_before_setup": "3de6f4697e8868a3c7314fdcd2862ec6ee8e095e85006b782cebff0d7733cd49",
+      "bytes": 558994,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_017.png",
+      "sha256_before_setup": "575a9a2b2f3d1fd3b1789a1840423891cd75fc679c4b0977c125a5dcf6a194af",
+      "bytes": 556573,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_019.png",
+      "sha256_before_setup": "6f64ce48ceb3022a1d1fabb9e458c6b503e0be4e742774a0bde2a7372c9cbaf6",
+      "bytes": 555559,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_021.png",
+      "sha256_before_setup": "a8670448c0d71f9665a4764f2ce098118a8ee8cb45caeff7db8d40830aeb3a71",
+      "bytes": 553865,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_023.png",
+      "sha256_before_setup": "ec8ad6fca11ca868f39e736f738673090ed07830316d62c5238f9b687077ac44",
+      "bytes": 552578,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_025.png",
+      "sha256_before_setup": "4d7cdf549646ae74437f93dd1fbd14ccad99a6a19e16bfb250af5c728663faea",
+      "bytes": 553062,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_027.png",
+      "sha256_before_setup": "f5421e1b1312529ccc50dc33adb6fde71bf5ec6a2c6e05dae75d97148deecbbb",
+      "bytes": 554727,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_029.png",
+      "sha256_before_setup": "c4a9fe6b7833c6b2c95b0a9239f73347ba3cecdfc05c51cbdacc1f036acaaaa4",
+      "bytes": 554994,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_031.png",
+      "sha256_before_setup": "92522fd41eaa2c58a0c722f92be3fc6751442284a2f77535459b5b59bd402528",
+      "bytes": 554751,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_033.png",
+      "sha256_before_setup": "ce9d2a8631e58679ea662c1131a9ca3cd76bbcf77033cd2724397f5bca87dd75",
+      "bytes": 555716,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_035.png",
+      "sha256_before_setup": "c63b2fb8b55aeb0ad2c788d4df0e6fe98b8b3c6592c1c9b9d8da6d5c10316952",
+      "bytes": 555822,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_037.png",
+      "sha256_before_setup": "0de3215c06f060fc8be2db05371cf144eff70fd277329ee0e9838d3f80ce254e",
+      "bytes": 555209,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_039.png",
+      "sha256_before_setup": "39af2eb72cb4526e4103cb756d1dc4a8ff3539874d246dc86b2dd631690a5bff",
+      "bytes": 554672,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_041.png",
+      "sha256_before_setup": "3d03934644d3d6938ed499fb17c50da4d5df4ab94c376d271f2c0788d9a890e2",
+      "bytes": 554295,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_043.png",
+      "sha256_before_setup": "f09bc0b5c335c8eca9502cea8eed7472c599003b37f1b7f5f1c486fb3befd055",
+      "bytes": 555044,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_045.png",
+      "sha256_before_setup": "09abb06e57256a4c1ffd4980362491686eaf010099f2dc35856955df2ce220db",
+      "bytes": 554485,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_047.png",
+      "sha256_before_setup": "2344082d2003e7977f2e9445968d4e526c372a51bb3bf2d325132aaf5c859a85",
+      "bytes": 552742,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_049.png",
+      "sha256_before_setup": "a0994fbc9fdcbf9141ff8222cf65d489fb0ae8948739679391759d1e8ec34ac5",
+      "bytes": 552802,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_051.png",
+      "sha256_before_setup": "74ce276cfa3166f8a727634c09b714f198e7a530b964dc1338537c393793a733",
+      "bytes": 553063,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_053.png",
+      "sha256_before_setup": "2ea3d9180790802b1115d766e0a34f18ae5d606edd9f48a6e93adbba9b4f0c33",
+      "bytes": 553147,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_055.png",
+      "sha256_before_setup": "ce74bd3107dbb4fb9d4af7aa83e5923b9db170c83c97e38a35de7ebac4b5eb60",
+      "bytes": 552985,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_057.png",
+      "sha256_before_setup": "37fd44229f4606d7b2b20db536a082173acc60be21d6a61332fa3e5d825a4835",
+      "bytes": 552818,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/frame_059.png",
+      "sha256_before_setup": "6948bd966307a58c5d08d9fec1cd49a25f0db8b020d64e97ccfd3755f55f1825",
+      "bytes": 552831,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/pose_001.png",
+      "sha256_before_setup": "018cab1a9e0740afea157072e41604c03d43f81114691171feda6cf088e7661c",
+      "bytes": 561384,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/pose_013.png",
+      "sha256_before_setup": "85a2710768232caa367903796481b3bc357d7bdc2af03526e80c69c797e03924",
+      "bytes": 560321,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/pose_025.png",
+      "sha256_before_setup": "12a95a4a02d0453b3b44f782e67abc6f35fc7daa1ecf298484472e3836de9ff0",
+      "bytes": 553062,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/pose_036.png",
+      "sha256_before_setup": "3860d546314747a37af85bf9d293c44251243be02ed4dbac7bff8c01b82fbb03",
+      "bytes": 555296,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/pose_048.png",
+      "sha256_before_setup": "415fdbbc59eb1828bed3a8871094d4fbe230512b5e483d1833b4e3f383925be3",
+      "bytes": 553138,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/pose_060.png",
+      "sha256_before_setup": "65d116172a81ce50af08fd0d5220c39c9ad6806f81ea62568b0832f9474cf50e",
+      "bytes": 552841,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/side_013.png",
+      "sha256_before_setup": "748873c626058f557b195c0e36056943444165b64ff39c47d2535f907876a9dd",
+      "bytes": 549585,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45/side_036.png",
+      "sha256_before_setup": "3bb058bf2170bff49e0ab3b826bd64452cc25459313b78b6c18a73fb02608187",
+      "bytes": 556627,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_45_samples.json",
+      "sha256_before_setup": "68b08bf37932ae82988b27dca3611f59e810dd52437d4254468cf2bb98eae746",
+      "bytes": 506155,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_001.png",
+      "sha256_before_setup": "fdf71a8fc6e9fbadc48b13f1cf39f8cf944d7b5e578b747a00b398523ef846b8",
+      "bytes": 561384,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_003.png",
+      "sha256_before_setup": "21b9fe15b71883a5e74ec81b59ba525978dd1989f439a1e7f57b914c4702b950",
+      "bytes": 561876,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_005.png",
+      "sha256_before_setup": "7a7e0d99847b28b53e415194f456ae54c7891d49acb51402dfef623b513a5bb4",
+      "bytes": 561785,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_007.png",
+      "sha256_before_setup": "5e8076b66bdecd8e104cd0ca4997ccf7d12cb5fac5bcda4a4a4ba68819ce012d",
+      "bytes": 561779,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_009.png",
+      "sha256_before_setup": "73c606f1b3ab51b02af07f72b08dec15c31ca8344ee79e022f4df6222302b718",
+      "bytes": 562133,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_011.png",
+      "sha256_before_setup": "97a0010112c062250cfff5f43f366a44d127c60846cdd9e1ce82aaf502e35fe1",
+      "bytes": 562222,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_013.png",
+      "sha256_before_setup": "68eff5f3e70167154eef8bf8fb302abb69b4047f0afbb0970d14e9bc729cc5f1",
+      "bytes": 562515,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_015.png",
+      "sha256_before_setup": "5bc690c9794aab139fb69cdcabe7ab08027b001b9620ca9031f4d8ab2c141c09",
+      "bytes": 561791,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_017.png",
+      "sha256_before_setup": "c39ff795fdba4659b80a321463f7ee385412589112a23e4452c4c025f3f271a3",
+      "bytes": 560559,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_019.png",
+      "sha256_before_setup": "b7c2288a30615d7fa27f45e651d3e0eb2732e5720f14bb9fdb0ec0ac140a6ed6",
+      "bytes": 555988,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_021.png",
+      "sha256_before_setup": "3467adf0fc26b919845d68bbb74b45c86939d06d8eb4470b98b3ab701197e981",
+      "bytes": 551519,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_023.png",
+      "sha256_before_setup": "b4d3ba30691a8899da87654b3042664839723a0720ee59c2d2cb8ac74f830d07",
+      "bytes": 549030,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_025.png",
+      "sha256_before_setup": "48ea3fadccf2878788ac654d4a7b63d84ced5b3fed969c8776f461c454af80fe",
+      "bytes": 546269,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_027.png",
+      "sha256_before_setup": "2c1959e7df9250d7a753d6226a741791cb40e6a7512cdd077385cce4efa0876c",
+      "bytes": 546642,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_029.png",
+      "sha256_before_setup": "ed382e9cd1733890ae2f26fee2e45f2366c9a26da257819115c4e617e45a6263",
+      "bytes": 547768,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_031.png",
+      "sha256_before_setup": "cbf73423cc2494004fae01b732f3de29466838229f81271032bf5e2308f492db",
+      "bytes": 548272,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_033.png",
+      "sha256_before_setup": "f8299e0fe057f394091357c0d452f5c68388cd4ccbfccdab61002fbbf0ba850d",
+      "bytes": 549271,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_035.png",
+      "sha256_before_setup": "90cd251acfc8739c6c5585d76d9c0e748c88b322e07c8064f727cf3aa7cf32ac",
+      "bytes": 549401,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_037.png",
+      "sha256_before_setup": "a56d75b0507ad8e6d610b103bc64e26c93e02de8869b8038d4df5f316b6cbc19",
+      "bytes": 549173,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_039.png",
+      "sha256_before_setup": "ab1e15c558a1ef3d02d56dfdf91275c7050386e061291f73680f0cee395176e6",
+      "bytes": 548263,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_041.png",
+      "sha256_before_setup": "75d332515ad57966ad1989e01fd403f7a5eeba0fd5c43d8e65d7125a6b4372ad",
+      "bytes": 550176,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_043.png",
+      "sha256_before_setup": "832797a85e998c4318ebb7b7c8539cbe53e83866ff3bb97b8dff30975ea3d547",
+      "bytes": 551062,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_045.png",
+      "sha256_before_setup": "a9bd7265e27d6838a2b3c3f2ebd9157f87a9a9df08e78059bb58eb6448136b3f",
+      "bytes": 551942,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_047.png",
+      "sha256_before_setup": "6fd7526089db14d0cee7f08c2fd35ad2c8017d366c865ce961d68eb4ed180a67",
+      "bytes": 552430,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_049.png",
+      "sha256_before_setup": "a62006ecfff22c6202b5646ba7bb2fadf80fe1b88a99f22ba42e7e1d08cd0f75",
+      "bytes": 551970,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_051.png",
+      "sha256_before_setup": "70ba2e30388a192bf8c821f5d08e543b0bfba6f42c548e801e6374043bb293da",
+      "bytes": 552295,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_053.png",
+      "sha256_before_setup": "40d29137716438c62840adceaf8e69ad551c6cb595eba434d20ff02b7814df02",
+      "bytes": 552161,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_055.png",
+      "sha256_before_setup": "8e08647bdf10e18a5150b69dc41414e81f7e1b343b4963e5d50105428f45d614",
+      "bytes": 552373,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_057.png",
+      "sha256_before_setup": "0473d64047648f96fdb3efa62a40f049b9485ffc5832ba758cd3a4aedfb7e919",
+      "bytes": 551593,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_059.png",
+      "sha256_before_setup": "d1c5ad316fbc2fb45377a9c395180be947e34a30f6df3fafbfc6406e3c84791e",
+      "bytes": 550744,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_061.png",
+      "sha256_before_setup": "68a48c1c05899bc3d632720ff3011f4490386ced80f69989dbf36df8f34c51c7",
+      "bytes": 551510,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_063.png",
+      "sha256_before_setup": "ea8dbf9e0d759ae1d8cd09af7835305d70328d8dd7c3e8af4566fe322ededcb5",
+      "bytes": 550830,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_065.png",
+      "sha256_before_setup": "9d1115f6ae7354c69de4e9e0e30fb9a8450cdb4cbaa6a44e95a57f0816ba3c7e",
+      "bytes": 551083,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_067.png",
+      "sha256_before_setup": "7d0aa23d06eaf4883eeeafb3212c33a07b94c9b0a09a9c095a21215a8eac90c6",
+      "bytes": 550976,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_069.png",
+      "sha256_before_setup": "b591d3b4f7f93694baee2c0b1e161a54c4a9fb9bc601492f5b3ac61eb475f982",
+      "bytes": 551260,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_071.png",
+      "sha256_before_setup": "b86552567227d4a1fc44e339cb8de3e786625819d70f5ab93b569b652437e722",
+      "bytes": 550928,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/frame_073.png",
+      "sha256_before_setup": "aeea16d52830a9193d962d8b5da20de846daf8eec239fef642eda1877828da00",
+      "bytes": 551514,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/pose_001.png",
+      "sha256_before_setup": "fdf71a8fc6e9fbadc48b13f1cf39f8cf944d7b5e578b747a00b398523ef846b8",
+      "bytes": 561384,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/pose_015.png",
+      "sha256_before_setup": "5bc690c9794aab139fb69cdcabe7ab08027b001b9620ca9031f4d8ab2c141c09",
+      "bytes": 561791,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/pose_030.png",
+      "sha256_before_setup": "c4393fea4f24530d2a415d835395f38a7684ade75c1c3833519030ca0729b247",
+      "bytes": 548696,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/pose_044.png",
+      "sha256_before_setup": "5cbeae77a808aaf03ce9f28cc1d66b761e274a97add0455a0211ae814435c0b7",
+      "bytes": 551508,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/pose_059.png",
+      "sha256_before_setup": "55cc4527532d2ffc5dcbc24827b9905620e70ad5777ba056b8c9fd1bbc504b4e",
+      "bytes": 550744,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/pose_073.png",
+      "sha256_before_setup": "2d726ea80b13c45a13085f517695318d37229fe14e1ecf140a506c27f35b6e0e",
+      "bytes": 551514,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/side_015.png",
+      "sha256_before_setup": "f3a3f9393bab310d4c8a871a12f9b7b75531aaaef6246405963318b07b5988de",
+      "bytes": 545019,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90/side_044.png",
+      "sha256_before_setup": "7e19ca7fd366a87dae6d1a210c324498bbad3ac4334466daef7ca78394703785",
+      "bytes": 558623,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/pack_mutant_right_turn_90_samples.json",
+      "sha256_before_setup": "a40053cfaef05cddd1ad841010024f31a04156f7a37e25db774e5fc15ef216a8",
+      "bytes": 614662,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/preservation.log",
+      "sha256_before_setup": "4e3ecac070833018f75b75923fa64218a80eb02c9630093b27f51ff4119d8010",
+      "bytes": 1911,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/preservation_checks.json",
+      "sha256_before_setup": "be6cff100771bbdf365894a865ca6268ff631cc9e97ef998871a755a197ab623",
+      "bytes": 1626,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/preserved_walk_35.png",
+      "sha256_before_setup": "d15293f6d38ef0942099b7e0e5734f8a6788625d012de6e58a5a6e1685f10826",
+      "bytes": 552142,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/preserved_walk_9.png",
+      "sha256_before_setup": "a91a92dff21e50723e8c85c893657d391464335162c5700330e5887930b94b76",
+      "bytes": 553599,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/qa.log",
+      "sha256_before_setup": "80acdbf19cf4de7ac5dc6100f117248d8e3ce9201cd3575c990a31c3e5e73691",
+      "bytes": 44630,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/qa_metrics.json",
+      "sha256_before_setup": "4fbec758e0e4df25196036ee189279ccc5af779043cae510943efebb08e73006",
+      "bytes": 5358304,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/revised_qa.log",
+      "sha256_before_setup": "ef05240db184d4e10e0461e7f700291dfd85612782a6c032db16463f0c09bf91",
+      "bytes": 45042,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_001.png",
+      "sha256_before_setup": "a204b07225ef9926664d130be466300830e43e04efd610cb829aec6eb8981235",
+      "bytes": 551181,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_003.png",
+      "sha256_before_setup": "3ca1d9ff3da2e97dcf9137c360237f3e5d3c0e4aa09925e2a32fb5a9760a12cb",
+      "bytes": 550131,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_005.png",
+      "sha256_before_setup": "ed78dfd417327140271504cea20c3e1aef3203e196d8c29421ca6faa89b350e6",
+      "bytes": 550910,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_007.png",
+      "sha256_before_setup": "f81f07c51df96e765b04c3f66dfc15a50fd851e45bd70ca0e52a25a04c409ffd",
+      "bytes": 551284,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_009.png",
+      "sha256_before_setup": "bd775aa638e1b31018d76f440db0ca7f663673995cc75131b809e09140c4d913",
+      "bytes": 547187,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_011.png",
+      "sha256_before_setup": "cd56311ef52653a2403dcb727c0bd25337eef419e41f8b733d116e98b76aeab7",
+      "bytes": 550773,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_013.png",
+      "sha256_before_setup": "b91333ac06695ab9a44c8b0b495e238f5bc61063f5a5653880575cd406aed045",
+      "bytes": 551376,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_015.png",
+      "sha256_before_setup": "a97912be77d816cf279d2b1d3c0d52c9351b732b47d99cdf335b16b797b6b21d",
+      "bytes": 549850,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_017.png",
+      "sha256_before_setup": "122663f31e6577d957bf88baa388f6d7a880a4c1aeb45b9bc02c397d458c1455",
+      "bytes": 551100,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_019.png",
+      "sha256_before_setup": "9252bd11a2d78e52183661068aefac6f30f896a4777ad43a72efd51b8d1e2a1d",
+      "bytes": 552190,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_021.png",
+      "sha256_before_setup": "4a2004ab5e96c6220fb9e10a36cc718ab00e2ebcb9c314ab9ae84088355a1712",
+      "bytes": 551839,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_023.png",
+      "sha256_before_setup": "91e6b04031f95aa0ddae82439f60faa4225968117bed4f8f07ea8d64903b12a1",
+      "bytes": 551128,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_025.png",
+      "sha256_before_setup": "a355665e86ad283319c35ab759ce97748f312303cb08e7e1c16c052b0c76e532",
+      "bytes": 550336,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_027.png",
+      "sha256_before_setup": "7cf47800797de0740f60ba946705e22e2912af2bd2a5b71baefbfd233f2b3b94",
+      "bytes": 550478,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_029.png",
+      "sha256_before_setup": "73f08f450c0793e8f86007fab9310e1a6ebd0f8341fccdc0298baccfea66b97f",
+      "bytes": 551718,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_031.png",
+      "sha256_before_setup": "f2482939140b202b27ee5163ea31ce0dfcb86cea25d130a8e88a0a260baf76c5",
+      "bytes": 546564,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_033.png",
+      "sha256_before_setup": "11f032a6849ff0b475f24db54fc2c72fb6499e6fb015bb7a3cd2cea695b53ab2",
+      "bytes": 550810,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_035.png",
+      "sha256_before_setup": "8731ae9e478dba684de70e2d430a2d0835d1e09077889558e1c35a7677522887",
+      "bytes": 551848,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_037.png",
+      "sha256_before_setup": "0e5695c3e0cfa8188b60e8472b4451e42d14980385da2bac241743ee3be6cf48",
+      "bytes": 550426,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_039.png",
+      "sha256_before_setup": "b3cd37b4334c8cf789bd8ca9077a32b2c151301b22ec7e2d1d2fbbfddbd977cb",
+      "bytes": 552107,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_041.png",
+      "sha256_before_setup": "ec98d7b7552f8eeaf23ae4788d2a5bff0092bef04a96820587ac159a45cfa7e7",
+      "bytes": 552711,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/frame_043.png",
+      "sha256_before_setup": "ea3c2aef24e85afae9d9a3fd66cb8e412ab9dddef9c3d424be2d4c0d4d85c078",
+      "bytes": 551176,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/pose_001.png",
+      "sha256_before_setup": "4d535a1722d4c4b6e28a3b855cb4a50b849ed6ff3e31142539aadb5b9f35d981",
+      "bytes": 551181,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/pose_010.png",
+      "sha256_before_setup": "a0c77570e13198c0cca25c1fa1212f168e078a3ee0cd826c093afebcf2c15ec9",
+      "bytes": 547241,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/pose_019.png",
+      "sha256_before_setup": "b3d9bd0b303d239c783d9b1c85a38206e55f15d2350908e1081adadfadc5e6ab",
+      "bytes": 552190,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/pose_027.png",
+      "sha256_before_setup": "0f5af23b812a41605e7277eb7ee5a463c05a48475bf8e4b4126f794bc77be063",
+      "bytes": 550478,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/pose_036.png",
+      "sha256_before_setup": "8db50f1653a8474ca39994c3f2724688fb08da52a3e3625bdeec63c1fe54a249",
+      "bytes": 550679,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/pose_045.png",
+      "sha256_before_setup": "3f1844400ffcb96e4ed405b0bbf6bd77133e8c21a8205200c414717518088cbf",
+      "bytes": 551181,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/side_010.png",
+      "sha256_before_setup": "4cf410f0a6b6721583ce5369a1ebfe8580d2b8e620161a02a8061da55a7df282",
+      "bytes": 541815,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run/side_027.png",
+      "sha256_before_setup": "6650e88bd1dcb7d83136a68c8a9f60ee1cb1df331c891211d2e8e148a656f32b",
+      "bytes": 551244,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run_arm_refinement.json",
+      "sha256_before_setup": "c9163381f998a1437761ab5251030cc7d620e6867b5529d1c015188255c37eaf",
+      "bytes": 109824,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run_arms_refined.blend",
+      "sha256_before_setup": "0ffcd247fe7aa94eb36b41055124f3fc1d825f565a16476824eca47c9c12dabc",
+      "bytes": 2632293,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run_front_001.png",
+      "sha256_before_setup": "4f5f1b156ce17a0105a6d1693450f0af41a563b3d2a5884491263875a6804bcc",
+      "bytes": 562942,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run_front_006.png",
+      "sha256_before_setup": "cbdcb50f2479471413093329e3f49c837e820c72842f07a46a23b465c2065053",
+      "bytes": 565042,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run_front_012.png",
+      "sha256_before_setup": "7a40fbab0586650da72e0530186b7317c9829430b64110ef7d010f95973b0b14",
+      "bytes": 562046,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/run_front_018.png",
+      "sha256_before_setup": "4277d01491dcc1d483bb1955cb70345b748fcdffc1827c97f1d07ed7ae5d3311",
+      "bytes": 560420,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/settings.json",
+      "sha256_before_setup": "4af26d0896db95d81e3e418ee218182a3289156b8f452e3af29e2726fb3a1909",
+      "bytes": 167451,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/test_original_jump.png",
+      "sha256_before_setup": "343f80f9068102f4024501ef5668e3fba31a7bb43fd66f866df1053d777f03da",
+      "bytes": 560683,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/test_original_punch.png",
+      "sha256_before_setup": "0209203aef9b08f3650b06492e60fa98c253e063fc78686e6e844553e86f8cfb",
+      "bytes": 549525,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/test_original_run.png",
+      "sha256_before_setup": "e7d13de5bced63fc59e9fc3b3d4790e4172d46d7c4680f464e63f71a194fb2a3",
+      "bytes": 551235,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/test_smooth20_jump.png",
+      "sha256_before_setup": "6398eddf1e475ea1a8fca4fcad1e65eb5bd8c663ab752a1c1bf8627caa5b8623",
+      "bytes": 560334,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/test_smooth20_punch.png",
+      "sha256_before_setup": "5c7531753440dea126dedbb378c5a6856129f36b3b69142ef297835dc0aa9ac4",
+      "bytes": 549957,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/test_smooth20_run.png",
+      "sha256_before_setup": "1c6b11a371e078768aa1a8a430fbb54e0c8887abc1ea4469f4b02d80eb36d9a9",
+      "bytes": 551176,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/test_smooth60_jump.png",
+      "sha256_before_setup": "01658ede092ef6af75f139684cc084bafb202157225b9a7bd332b7e0662e2d36",
+      "bytes": 560537,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/test_smooth60_punch.png",
+      "sha256_before_setup": "8b9048971512f6d34b3d2a3edf355b69cbbbf39195ddb7e4c72ddba6392f4437",
+      "bytes": 549759,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/test_smooth60_run.png",
+      "sha256_before_setup": "06c13ba665f1fde7a8ea93e0876acceebaec8f3811a1f6858e635758c7c96d1b",
+      "bytes": 551387,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/verified_qa.log",
+      "sha256_before_setup": "9d5c3594dd41e5de4c43ff25a63ba86ccb3f31d015069946cc310aa7586e8d17",
+      "bytes": 45382,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/weight_tests.json",
+      "sha256_before_setup": "27a7cde51f135688de11f719f8f16b9a39f6310f599768ef4482d42ae94536bc",
+      "bytes": 1654,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/weight_tests.log",
+      "sha256_before_setup": "26386ef87a1c396642f588bf9274646c6ce040b27526572c65cbc9691f699e5f",
+      "bytes": 2635,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/weights_smooth20.npy",
+      "sha256_before_setup": "4890ad3feca57a0cb797da93a7ea6169ad7ad3d465522763eebbd6b4d7ff129a",
+      "bytes": 5747072,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_animation_expansion/weights_smooth60.npy",
+      "sha256_before_setup": "9742edad3369fc7898b0668f5cb179470f4710683441142975a2b238c31045b0",
+      "bytes": 5747072,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_build.log",
+      "sha256_before_setup": "9cc1341ff1eaa2ee1f48b4fd43abd3d34ff5f6a39b86c75d2711bbaa0fb52929",
+      "bytes": 399,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/Creature_Pack_Sources.blend",
+      "sha256_before_setup": "9e1067239b2b0d8d0b8e37c324c376eb867d16b6f680f6b1298b920ffeb6a47b",
+      "bytes": 9985367,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/catalog.json",
+      "sha256_before_setup": "141f644ea5bc2dca3eb39b5152cbaa43212553d68b0b1039230be8127571f9b2",
+      "bytes": 25130,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/duplicate_checks.json",
+      "sha256_before_setup": "5a5d17adff3e557b1d0c61a1c40dc81878df8e57d4d08236dcd2a714afad9ea2",
+      "bytes": 329,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_jump_attack.json",
+      "sha256_before_setup": "2efd8e1744b0a20a99ac2edb4823c0f91cbe4229e141891282e162a707ed04c8",
+      "bytes": 677022,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_left_turn_45.json",
+      "sha256_before_setup": "aa12cafde58d8e7fefb7358cb9e9de6c718b8f9f0f569980fef4dfadec7b6797",
+      "bytes": 246608,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_breathing_idle.json",
+      "sha256_before_setup": "4f69e3a31e9d78b6efb91751051fd1eb7246f35bf22a8f108ab5e0ae59d824d8",
+      "bytes": 720143,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_dying.json",
+      "sha256_before_setup": "939ffc02fe0037ac7e4d9e4fbad2d92992c23ca25c0ffe537f53f8dc8303fbe8",
+      "bytes": 817818,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_flexing_muscles.json",
+      "sha256_before_setup": "49ded5cdfe53f5f3218c0769db488b56a59f54398d85fc6e1453a8d99c0a508a",
+      "bytes": 836064,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_idle.json",
+      "sha256_before_setup": "8423d41cd7fcdedf8bdd666a5c28b9f8a85e0b9ccf66252f8db07dbc815a7308",
+      "bytes": 2523892,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_idle_2.json",
+      "sha256_before_setup": "29c0b785863d017d8efe532ebf67f5b2d910ebb8b3fe01e5a2e6d8ccbf89e7d9",
+      "bytes": 947762,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_jump_attack.json",
+      "sha256_before_setup": "fab724f4f586c47e564bd57f3b22c12f6990f66d994f70ee43ec2b52a749a4f1",
+      "bytes": 659317,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_jumping.json",
+      "sha256_before_setup": "34fa758a94511e9404ac9a3a03b130e6249434b78db2601a5d7d6a7213193626",
+      "bytes": 570514,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_jumping_2.json",
+      "sha256_before_setup": "b4ef567b12d0406818e8ca7390c29dcfcd9aad53cbcdca8c42ad9f8d5d2904c9",
+      "bytes": 117540,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_left_turn_45.json",
+      "sha256_before_setup": "3cba5de6df9aee8c918d0b60fc4d718480d0277d5683bf7974ed755029555d25",
+      "bytes": 247158,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_punch.json",
+      "sha256_before_setup": "18ae060c1d6ecc54c4a357272fe760d03d760d681713b095bd191f44b8fe4b2e",
+      "bytes": 205362,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_right_turn_45.json",
+      "sha256_before_setup": "3ce8cb6e4136e6b74884c73d3805f8c5e463cbbd1fea65a74c99d0604e1fa375",
+      "bytes": 352709,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_right_turn_45_2.json",
+      "sha256_before_setup": "b49b45d55fca4454286dd30b75716da925cdc63b7356d3a8effe3d0d81fbee18",
+      "bytes": 247315,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_right_turn_90.json",
+      "sha256_before_setup": "2baac537c8bc5f0466bcb395564a228cd09a544bcc141904e4cc9bf3d2541403",
+      "bytes": 434311,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_roaring.json",
+      "sha256_before_setup": "61dd52ee84f5d6388a137cd13895070e3c8aceca8617c6482e85ea03e7b78f7d",
+      "bytes": 960788,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_run.json",
+      "sha256_before_setup": "093912b488ba557e3abb461e1d694a0766662d97b51093a752491f1a24df8cfd",
+      "bytes": 164010,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_swiping.json",
+      "sha256_before_setup": "d0f45c353bf2d83229144886f5eb4077b37b9141132851f6048295763ee2e1d2",
+      "bytes": 481244,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/pack_mutant_walking.json",
+      "sha256_before_setup": "134489b7db8f715779e5d2e16e4190c3f9677a31327ec983eb8ef911016ff47b",
+      "bytes": 257447,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/source_gallery_1.png",
+      "sha256_before_setup": "efc59200252caf1a98ada1e5eafdcf2e537bc291a7f93af7a6c03d0fa719c687",
+      "bytes": 71402,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/source_gallery_2.png",
+      "sha256_before_setup": "64becf9dd37c6880b49c990bdde790be22925b53108f46408463bd31c8f28cd9",
+      "bytes": 73156,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/source_gallery_3.png",
+      "sha256_before_setup": "aa18a2f1db8134b00d0647b8add0ea0d5a8305c3b3c820c49943a45329e96518",
+      "bytes": 70143,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/source_gallery_4.png",
+      "sha256_before_setup": "0a539d0b2a7752bcc2a0ce61177e4c9270d43081f7e4212e5d69688f5851ec66",
+      "bytes": 73123,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack/standalone_mutant_run.json",
+      "sha256_before_setup": "5157bea5ff6cbe979c68b7e41e28f1fd5b574e30957f98cf626fb9e3b8e6d141",
+      "bytes": 256595,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_creature_pack_import.log",
+      "sha256_before_setup": "87e0c8fe7a9c502da925969259f548d6524bcaa0f0dbfdbfef1e14c76a9b2a09",
+      "bytes": 19910,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_diagnose.log",
+      "sha256_before_setup": "02217d154435960683356c5e9ae5f444c83ddc71b189c49c3d22481c77002e5f",
+      "bytes": 9533,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_finalize.log",
+      "sha256_before_setup": "846c6f7e77c35088ae8236648f7bba0cb45c8f90669e59f36f62c11b592ea617",
+      "bytes": 239,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_geometry.log",
+      "sha256_before_setup": "1f01f71cbc7174c0279f49b9f783d14ab982751edaef3d8153bb167a7f6d544a",
+      "bytes": 2047,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_inspection.log",
+      "sha256_before_setup": "eb860170d0daf7101581c22e2fdf28997c188de69c8121fa91d882e25fcd9023",
+      "bytes": 1103,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/contact_and_preservation_checks.json",
+      "sha256_before_setup": "1493c710ffa7606c5fa205fb9b2672c40bd37802bfc1d020558328b78b00806a",
+      "bytes": 1201,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/contacts.log",
+      "sha256_before_setup": "ea2092e21d386de0aac52550ec3974ffd5afef6acf82d729267ed05925a86fb1",
+      "bytes": 1402,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/deform.log",
+      "sha256_before_setup": "825b2a5dc71506ec8bc55e25637b5573d1a5c369d300e78fc66d09c9a3279559",
+      "bytes": 5237,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/finalize.log",
+      "sha256_before_setup": "bfcbb83a1d2436dd37017a4a426562b4b03b421681b4a8c845efa754a6734582",
+      "bytes": 530,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/001.png",
+      "sha256_before_setup": "f51054cc00a464dd0227d8c0bd437f44db4071d249f2a2aaa8d6108d513585be",
+      "bytes": 554498,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/002.png",
+      "sha256_before_setup": "12eb7a16ef029bcface3b6ab81f0ef8eab8d0de897aee88b6a173fd778034066",
+      "bytes": 551657,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/003.png",
+      "sha256_before_setup": "5a20af331b5e189808292eaaa7be3234f53dfe6859c10a699ffbcc580dad47ae",
+      "bytes": 552409,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/004.png",
+      "sha256_before_setup": "b63694ef8fd339cd1676124368158b284b401265f01a55e7b0321b9bd5590ef5",
+      "bytes": 553054,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/005.png",
+      "sha256_before_setup": "d0757a9c50059ca2ca1d50a227d740e11a5d66c9a638a9fd04d859d180fcd66a",
+      "bytes": 552946,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/006.png",
+      "sha256_before_setup": "8ba0a76c9e36be5e1d9a4504e7e570e7d5e9be17d5f712473ade58d7f4292734",
+      "bytes": 553221,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/007.png",
+      "sha256_before_setup": "d1c3632840493cf711cb88ab0907bdc20b5beee19daf3dc063ae3ca981ddffc4",
+      "bytes": 553584,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/008.png",
+      "sha256_before_setup": "6f0d65dda10c67d8d1e7e46f11c18aced2f4419d0ccaae8fb9e90455ea4f7552",
+      "bytes": 552158,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/009.png",
+      "sha256_before_setup": "bd65e50dc1e0daadfa97c7fc40b4dbbcac035ae64e19cebbfbc160c639ebb1d4",
+      "bytes": 550068,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/010.png",
+      "sha256_before_setup": "e013dd43b23124eda55aade0f9cd0e6758fa45882886636dd1cf7cb3f88ff15a",
+      "bytes": 550091,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/011.png",
+      "sha256_before_setup": "4142adb34dd017bc93071c1ed2b1e3b04837895071fc57e1451d09ad37f57e7d",
+      "bytes": 553591,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/012.png",
+      "sha256_before_setup": "fe01cc386e83e2c752e001738264f2c259cbbc19725cfea0c41d80ee155c2725",
+      "bytes": 555037,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/013.png",
+      "sha256_before_setup": "58b06ae9d3a9768c235cc1e85a06630ee5d9aaf34332eb4cd7d90f4b1972bdf2",
+      "bytes": 555476,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/014.png",
+      "sha256_before_setup": "d73cb5d05b9bdd44b4672a075d8279a1ca124c6d730ac7df238fac929b7370be",
+      "bytes": 555747,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/015.png",
+      "sha256_before_setup": "43a2751e45dae3770f5ab061eda97d2db9361a4790f694b10f0340f2dad738ed",
+      "bytes": 554162,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/016.png",
+      "sha256_before_setup": "10d3b0fe07bfd1986a71e3c4fb7d7a779d7f31d986d45c16b0f307e633ef24b3",
+      "bytes": 555369,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/017.png",
+      "sha256_before_setup": "a543688a836266889a18b570cdf0e199224698258f4a579185385aea4e5b525f",
+      "bytes": 556487,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/018.png",
+      "sha256_before_setup": "9fe2ef63ac47d80657f19e6433535dca19e6e4efe958389a2514b28e87d404a4",
+      "bytes": 557052,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/019.png",
+      "sha256_before_setup": "782c85d1991a762f6ec16b4f2c19f61d9ec5675f94b68ff22dc30153390fffa4",
+      "bytes": 557720,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/020.png",
+      "sha256_before_setup": "7db72320593ba76b758fbdb002c797bf0d39874ef4ecf36e92bad634039568d5",
+      "bytes": 558623,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/021.png",
+      "sha256_before_setup": "f1d1ce0cc70d2497893cd07d909e98fea4bc6c6e656c1faf303307acbb9998fd",
+      "bytes": 556487,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/022.png",
+      "sha256_before_setup": "fea1a258d522139713ac558f83c0eccf5df182edbd5ba80a424b8c9b6d9053a1",
+      "bytes": 554469,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/023.png",
+      "sha256_before_setup": "06863a13fc9a6c23066ff4fef3c27fb8b6aab0c35c5132a27fcb32f5addb3b74",
+      "bytes": 554251,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/024.png",
+      "sha256_before_setup": "753c2389e4974795c57c8836da9c5b6f060240e4848748d6e7f9edea17dcf307",
+      "bytes": 551745,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/025.png",
+      "sha256_before_setup": "06fd1d78d7fca7bdeadb203d54071b374eb6babd8ad3f4c01de25059706d9696",
+      "bytes": 552562,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/026.png",
+      "sha256_before_setup": "57455805401a7e1538a10970df581809bc647c8b9e870ed9a538a401e44e02ee",
+      "bytes": 552969,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/027.png",
+      "sha256_before_setup": "9d073fe9585752029b1175126b3971fa867f7018b240e40ef8f4badefe1b957d",
+      "bytes": 552144,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/028.png",
+      "sha256_before_setup": "5ff60cff95c9a5194a4d3ed0a7d1dbbac75c865a3878d8ada4f5580bb8246092",
+      "bytes": 553886,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/029.png",
+      "sha256_before_setup": "7024d0ec88913f3f9df995fae1457a813227aed66d8ce8a5688238dad8b5bb2b",
+      "bytes": 553385,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/030.png",
+      "sha256_before_setup": "8f5fb059dc1ba6ce5ac84b08f3c5c04d1d5343947c93d83145a2dad41f31b796",
+      "bytes": 552247,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/031.png",
+      "sha256_before_setup": "85169bed67140f4306b66001d81d2c0dbedf81c44e0620b51f06a4a930e96e30",
+      "bytes": 549600,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/032.png",
+      "sha256_before_setup": "100d66b8cd4bbd5b51e95fd2af851bb2d6323bffdedfa7950ea4d36b857d337e",
+      "bytes": 550282,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/033.png",
+      "sha256_before_setup": "197b2c3a3f6b45786c78ffa9a8d9db2180ea777507b9333320c8508c5d60ea67",
+      "bytes": 554267,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/034.png",
+      "sha256_before_setup": "5343d3f2b2bcf43ee7093da4f6c01dc57a2b35e6c787ecb6f013ea57ec87f211",
+      "bytes": 555073,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/035.png",
+      "sha256_before_setup": "24fe36902a31719f9b27ea72b84476abc4d84ee15c3bae65abfe58027f993db7",
+      "bytes": 556193,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/036.png",
+      "sha256_before_setup": "c1ecdafa3d53091fc8fa26d7599b3dad9014fa115aa9803a25325b88f03faf13",
+      "bytes": 555142,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/037.png",
+      "sha256_before_setup": "118b6459c148dfc881a234b21fa3510b2cd40b256f14fe41ad09d678d6f3544d",
+      "bytes": 554976,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/038.png",
+      "sha256_before_setup": "2107ff0dc20baa0fed4b5ddfad1d07d0e77cef02fe7a0ff0b2c688b28a3e72e3",
+      "bytes": 555551,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/039.png",
+      "sha256_before_setup": "0da11df79d0a03ed50f1609402e5c0bd01fe73dc4450a47d0f88c433cd2094b9",
+      "bytes": 556580,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/040.png",
+      "sha256_before_setup": "f480a44b21f140833c646675a387e558abe730549ee373a95a3fe3af5d5b00e2",
+      "bytes": 557010,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/041.png",
+      "sha256_before_setup": "41fa0627804b81a7e359c9d6787d46f49e06893ae57bd05fe0f3051a31c32f0e",
+      "bytes": 557649,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/042.png",
+      "sha256_before_setup": "1984b5c155b61e300b406232c508f71ebe31e6e192501bb0d352195b2d85e598",
+      "bytes": 558259,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/043.png",
+      "sha256_before_setup": "988d56da0ae8c247d723cc451e3d21777d0119dcfb5b90c135b8f0db8f077ed7",
+      "bytes": 555849,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/frames/044.png",
+      "sha256_before_setup": "f1d098f37d3416aa1ecea90983019c34a737211e5b3421dc6888c8dd8f5cd3b1",
+      "bytes": 554549,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/front_001.png",
+      "sha256_before_setup": "66a9f48236d341d096360f56369be43e0615b91cf2539b9a22df1dc505ced138",
+      "bytes": 707157,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/front_006.png",
+      "sha256_before_setup": "874d55dc01b67e9dd20f1ad38eabf430d3b395e13c0d07b26a4a41bd57684c6f",
+      "bytes": 710188,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/front_012.png",
+      "sha256_before_setup": "3e95c9629b367b5098c039020a0ca7d790e77c54ee3f471c623d94a65466a4b6",
+      "bytes": 708423,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/front_018.png",
+      "sha256_before_setup": "4961bbd0a9fbb27d3ffe11d342b33db4867321d8bd3666901ef80491db1b98a1",
+      "bytes": 708909,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/qa.log",
+      "sha256_before_setup": "8391946e8160ba59c513b644e4f5d3ef7a017ab671c27789cd1a64f5d88a7f79",
+      "bytes": 6926,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/qa_metrics.json",
+      "sha256_before_setup": "6777cb345b868d004c16f9001bec5ce667e9a2bf6f691fdc3f14f395ee459a08",
+      "bytes": 633617,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/run_source_samples.json",
+      "sha256_before_setup": "4c033c329dfd72c1ab06720beac20086f2757041a9e7bcc74a944de1db14d6e3",
+      "bytes": 377715,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/settings.json",
+      "sha256_before_setup": "594747ddb1492627bf60cb9d35e9fc45a0106d5422cd9e2c91c25de5f82da2e9",
+      "bytes": 10123,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/side_001.png",
+      "sha256_before_setup": "77fb16c358e56e0691f537ce797caa49d1180b68e24c7115299db57d06f47df4",
+      "bytes": 678352,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/side_005.png",
+      "sha256_before_setup": "1229144107fb01cdcedbe5c0957c889f9039c8476e9afca2bbb71d4c13855bc5",
+      "bytes": 690122,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/side_009.png",
+      "sha256_before_setup": "08f4042942d2065e20151945aadcb26ac0fd53133ce42f1843699e7a0912cba0",
+      "bytes": 683920,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/side_013.png",
+      "sha256_before_setup": "3582a8191e1b0c81384c972294d2e6175fe3c4775ae4ad4b89bc971ff8ab63f7",
+      "bytes": 690322,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/side_017.png",
+      "sha256_before_setup": "f18aabb7790159b0c2277fbc7c3fa5db4e330017105d4b4cb8ec4ae41565aa79",
+      "bytes": 698955,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_mutant_run/side_021.png",
+      "sha256_before_setup": "b2dc803e71f5376714adec862fc1e27cfc4f09c19f98f6c7f09d8da1a42126e2",
+      "bytes": 689205,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_cache.log",
+      "sha256_before_setup": "a62e6ede212f9adeddaed1e8fed34cae5346201867afe0057118ae5a5efa7ff0",
+      "bytes": 2969,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_contacts.log",
+      "sha256_before_setup": "3ee67ba9264f1f386608b46fc91399ab2734d0c6586f5a1f74a7ffdd2ce1840e",
+      "bytes": 356,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_finalize.log",
+      "sha256_before_setup": "661fa8f08954ac56b0a90cd3e7be37e4324282b39c8329fb214c7891bf62a733",
+      "bytes": 250,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_inspection.log",
+      "sha256_before_setup": "63add4dbfdabfd8780195bb0cbfe229685aa1833b9164256e4a7217cbcbd2d4c",
+      "bytes": 28349,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_retarget.log",
+      "sha256_before_setup": "ecacebbcca1a44e36c330e5ced8d51258288817849e88e1f643e819dafb1130a",
+      "bytes": 399,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_validation.log",
+      "sha256_before_setup": "626d21f305ae06d0a47f27653adec974aa192d6bc59bd1884195146df0a9c7fc",
+      "bytes": 7767,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/Ronin_Sad_Walk_before_hitch_fix.blend",
+      "sha256_before_setup": "ee9664037c317f290dc0ea51ddb9d31f858a315895301390471e6fb98e6e5c2d",
+      "bytes": 2160687,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/contact_check.json",
+      "sha256_before_setup": "d41c2b9858e06cb40827b8194ec592d7fcaed42a31bd15d979f74782a4d20577",
+      "bytes": 262,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/finalize.log",
+      "sha256_before_setup": "9670b0655ca1bbc2646548b0af3c8810c82cfd60af79c4414466bfcd10bfd576",
+      "bytes": 250,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/001.png",
+      "sha256_before_setup": "ad70c8ad501b74e5cab67242890c4e810660c07288bd1db26758ee8118188a4a",
+      "bytes": 555887,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/002.png",
+      "sha256_before_setup": "1b4a60f1c43241e5a254c4b2a397787514074c60f60c417850079c68ed552b89",
+      "bytes": 556003,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/003.png",
+      "sha256_before_setup": "f4e9048b1df1cd9d855de201060eaa0e3d5a54f28b9e874040f32a2ff1614103",
+      "bytes": 556497,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/004.png",
+      "sha256_before_setup": "b0d16cad669022f52d52c4bc95eeb693f1a04dfc661f1ad4cb63e99a65d8b109",
+      "bytes": 555688,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/005.png",
+      "sha256_before_setup": "38ae6febb1f344279483f21460c20c91f0734961d8001790af1e021c588153c9",
+      "bytes": 555564,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/006.png",
+      "sha256_before_setup": "924ec6a944c0017482b151f67c82128164a2725c74952c2a10158b0e3de5639a",
+      "bytes": 555841,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/007.png",
+      "sha256_before_setup": "86137110a162f1ff33a1d5a10c7913293c689a5c756d90b27ae677da0bf30e4c",
+      "bytes": 554545,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/008.png",
+      "sha256_before_setup": "1b06aba374c04a58889a1fd20f029f263ee1cead64253393147ccce60e461aff",
+      "bytes": 554159,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/009.png",
+      "sha256_before_setup": "8d5cb10f0558861df8c1cda801b4f39572571b238d9f04ad9f8253527c9a3ed5",
+      "bytes": 553636,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/010.png",
+      "sha256_before_setup": "f3bc3fc2a09bc7906e4fe5d31ac36433004b083550056012a3944b8840c48257",
+      "bytes": 552664,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/011.png",
+      "sha256_before_setup": "43de2bf3b4f7b52c8aa1148d02fcb418674b2b0acf0e4a01d902e0414140e3d5",
+      "bytes": 553085,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/012.png",
+      "sha256_before_setup": "f9c07a760e42db2850fa3fe508159ed5a4247d0b137e654b52533523c8254a08",
+      "bytes": 552987,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/013.png",
+      "sha256_before_setup": "c9bfef40b308b7d4bb4e0f22bb32a2c3ce5d3f3be405ce87aa5c84a9c590acff",
+      "bytes": 553334,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/014.png",
+      "sha256_before_setup": "6e37d6fb6ff22de3af769f2d3e5199c0b42c21f1435ef307828080e149254092",
+      "bytes": 553037,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/015.png",
+      "sha256_before_setup": "54166c964fb03cf3e40af8d989aba8586c1b9439bc0372ce2992f0114281604a",
+      "bytes": 552697,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/016.png",
+      "sha256_before_setup": "3d990d7117cd5ca47681649ad1bf74eb4716cf7974a65c9cc4f31c84acd07177",
+      "bytes": 552317,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/017.png",
+      "sha256_before_setup": "3bdf07af67f1c45c1fc9ed42c8f0ceb1977885ec8ee776aeb59637522cffadd1",
+      "bytes": 551888,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/018.png",
+      "sha256_before_setup": "1b445f5a3d7b110b127646b03cd35463d57179e89a3ef0bc419e2647b5c484f6",
+      "bytes": 551061,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/019.png",
+      "sha256_before_setup": "5e5ba56454a01a5421c2499572cc369d2c152ffa313fa39176627db02ca16e43",
+      "bytes": 551737,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/020.png",
+      "sha256_before_setup": "d64c8c0a8d802b9a6315300acbc48c4a26571a63b557b5d4284b0e11f49c89d4",
+      "bytes": 551390,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/021.png",
+      "sha256_before_setup": "7e1ff7658d052f45369a698490456d001c132e7f3d0df74464dff6e1b67919f6",
+      "bytes": 551206,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/022.png",
+      "sha256_before_setup": "378bbb858529e8d561aa8db31d80e511a7543f9e256b55a35b757edeb89148fe",
+      "bytes": 551937,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/023.png",
+      "sha256_before_setup": "9983beb0f6a5fddf498d12e3cc47b9f4ab2ae936c1b897aa7744f5b12da9975d",
+      "bytes": 550774,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/024.png",
+      "sha256_before_setup": "905deb0a950f0c67cad320e4e439fa2a2a4cbddac5103d8fb063ee1cbbf52993",
+      "bytes": 551470,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/025.png",
+      "sha256_before_setup": "a6342911eaa3ce90c95c4a40c4035c3166e095d1bbc8ed442e39090cd1c168ed",
+      "bytes": 551620,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/026.png",
+      "sha256_before_setup": "78064049a795d836eceb1a5299adaf4f5121588ad38f61faf131ff4f1295db82",
+      "bytes": 551906,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/027.png",
+      "sha256_before_setup": "3d063a5a12f64c50bf9fdbbf97ed1e2acc7491194a34f8d29b7f1fed21398bac",
+      "bytes": 551013,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/028.png",
+      "sha256_before_setup": "9e4ab794e5e5dfa4f88d082e2be13fefd062efcd0a46ef453c2ea10b84a51731",
+      "bytes": 551335,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/029.png",
+      "sha256_before_setup": "4651ee9f83e32232fc50e6f514a8033d15c1d1f1d4480e948afc2d38e3dac8dc",
+      "bytes": 551540,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/030.png",
+      "sha256_before_setup": "09416d622ae03dc42dd6c126f0b1ce18dbf899dd5439d8292e35f20d6876dd35",
+      "bytes": 551209,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/031.png",
+      "sha256_before_setup": "4780b119c8906824c64fc96d520865ebdf1a407cad3da43c88a2533f992b8928",
+      "bytes": 551617,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/032.png",
+      "sha256_before_setup": "e553072695f67d833529842df646e77d78d2f61df2aaa7af0874e405f9e88c05",
+      "bytes": 551759,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/033.png",
+      "sha256_before_setup": "befb5e0583ff8728c055832446ab5753d5f287362b1efd6c816b9b0695433d29",
+      "bytes": 551911,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/034.png",
+      "sha256_before_setup": "b4fca688f39a45421a6e4ff6a22adfc98df2c00a2dc31049e82ca144be831e64",
+      "bytes": 552013,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/035.png",
+      "sha256_before_setup": "270bc35383cbeda47572c6ac5f5a4207702002c0c431341c56468ab07e8476a1",
+      "bytes": 552094,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/036.png",
+      "sha256_before_setup": "881d8d4dd22f1816e9516afd84028cf717e7de4fe6a6275505f7900985f93eb5",
+      "bytes": 551888,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/037.png",
+      "sha256_before_setup": "48da7d512f113be3d4fb03560de4569d7b815d95d909050fe0dc8c0fb32663b8",
+      "bytes": 551307,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/038.png",
+      "sha256_before_setup": "593afc983fc09b82dedd0315bb6a1978a37b4a1d70ffcd210e69bc0c3d1c988a",
+      "bytes": 551319,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/039.png",
+      "sha256_before_setup": "91028b6f41b82f53d3d86daf75940be6a9a2865de85e557d864b089607a44d98",
+      "bytes": 551173,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/040.png",
+      "sha256_before_setup": "c610b01d8bcc2c5143e9b06d6472bddce0803f7d1c4dcc3f3b074b78f7b01091",
+      "bytes": 551478,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/041.png",
+      "sha256_before_setup": "635488944f541d20e6d6f0a1e768ef221db483b13daf4e5eb6b112b9076d58b1",
+      "bytes": 551371,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/042.png",
+      "sha256_before_setup": "a9afbead5d8c8b85df18a98c492fba7954adfefd1e1dce65e0aa65ed435406a2",
+      "bytes": 552122,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/043.png",
+      "sha256_before_setup": "e75ffec2da018e8456e182dc649dc39bd36dfc67d79ef60aa73678a75c9f0bba",
+      "bytes": 552397,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/044.png",
+      "sha256_before_setup": "290242f44202499565997c29eb5ecb2d96bb9caa47278faf7a673d84b7a0cdf9",
+      "bytes": 551957,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/045.png",
+      "sha256_before_setup": "37661ee19a3a006fe397a65f2bf7e41175ed8142acbce82f3220b7552ab82080",
+      "bytes": 552901,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/046.png",
+      "sha256_before_setup": "be445546c15834c27a63b8bd1f60156a71bd296b7beecc2d56fcc2f08a361bb3",
+      "bytes": 553799,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/047.png",
+      "sha256_before_setup": "67a4d42be9711d95701e5f8a8f62c4b8bf4f6c95bc2e5b5af2296b11648dc426",
+      "bytes": 554018,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/048.png",
+      "sha256_before_setup": "d02411066bf90b4da9a94d81a39e643f8d83bca34b796fedfff13d322398bea3",
+      "bytes": 554573,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/049.png",
+      "sha256_before_setup": "34fb23c7fc1718f908ddd2303fb5d98c4b9a3b07455aab0d89172899bfd1bcd2",
+      "bytes": 554104,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/050.png",
+      "sha256_before_setup": "0ba222f506c1562ed517d1b04353b0cdaa6dbc3c3fb52ac3d513a2cad20fc88a",
+      "bytes": 555157,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/051.png",
+      "sha256_before_setup": "5dc6fde0892ee6af03adb3de9d05077928da297bfba06f3c9fd33a1d8e001268",
+      "bytes": 555326,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/frames/052.png",
+      "sha256_before_setup": "0d0b2282a76b6db9fefddf5cf021b25197ca96845c86209913ab6cc803643a2b",
+      "bytes": 555378,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/front_001.png",
+      "sha256_before_setup": "cef937fc44e239e6f71d72734191f4b4ada7ec7b966872184a656f149c065e33",
+      "bytes": 704820,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/front_009.png",
+      "sha256_before_setup": "638010032da699846c52f4012f3faa1be0a5989d16054fdefc5fddfdb4d6d3a8",
+      "bytes": 702783,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/front_027.png",
+      "sha256_before_setup": "c4942031b9a28e9b7f4d541193712c198e33fe4c82f8fc0c57cec072af4629f8",
+      "bytes": 705604,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/front_035.png",
+      "sha256_before_setup": "fc57a0812761d9dd81a9db792164be0a139b7fcdc973ceebdd8af4b355376703",
+      "bytes": 702109,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/hitch_before.json",
+      "sha256_before_setup": "2d70ac62f78ce8ae70750b317649801e59df442ce13d6fb87054055e385fa6a1",
+      "bytes": 63066,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/hitch_fix_qa.json",
+      "sha256_before_setup": "3f950ae789d2d28ebbc466dd42b3bb42e8d03786de4147587d8b0d2456424f57",
+      "bytes": 1451,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/hitch_fix_qa.log",
+      "sha256_before_setup": "3f975c4e0c27482d94d14525429cd1803027b80d99f9a84a201668fcf873ff48",
+      "bytes": 1983,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/hitch_fix_samples.json",
+      "sha256_before_setup": "193853fc8389e02f723535439d44b3e57b2135c92d599dc8ae313080a1204619",
+      "bytes": 770231,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/hitch_fix_settings.json",
+      "sha256_before_setup": "f8c7810fa53719c2fed975983fb3c0cffc648533439f5132fc1c8e29d2482d8b",
+      "bytes": 11956,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/hitch_inspection.log",
+      "sha256_before_setup": "dd923f8eb41e6a1daf45ab91a38842d0e7c499b603631cc5ca00e9896a578712",
+      "bytes": 2748,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/imported_source.blend",
+      "sha256_before_setup": "1d1c9208409efd773e35ae9e98bc0c4b1236f7820d767dd05c493c26bfb914f7",
+      "bytes": 2043349,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/mixamo_inspection.json",
+      "sha256_before_setup": "74b9fb4634d01d1e6b835ec855253ce1691c8976874ad9ed5fb8fa2d5d1f6074",
+      "bytes": 49534,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/qa_metrics.json",
+      "sha256_before_setup": "dbfb04c665f6a0c79545b27ca329c2e0e2fa4e8b06bbc621b34a5f08dfb52b9b",
+      "bytes": 86805,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/render_qa.log",
+      "sha256_before_setup": "a19e6ce28e9bc12e1714143cc8b35e0814d45eea0e4d4b8caee07d61eee18fdd",
+      "bytes": 8043,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/retarget_settings.json",
+      "sha256_before_setup": "1fe013d6d610822d641ab0f02f6a70180a058b7cf9edfa3f8269721872396c54",
+      "bytes": 12787,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/side_001.png",
+      "sha256_before_setup": "411971deff91c942989b4cc7d776ee936e7e42f8058847cf90c1debe4c66152e",
+      "bytes": 680602,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/side_009.png",
+      "sha256_before_setup": "65b96bb66e2acbced922a7aa63f1917336edf59c37cce0cf8cf729ece9d4d58e",
+      "bytes": 686507,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/side_017.png",
+      "sha256_before_setup": "997020c4af333699cd5813b27eb1d469c9d4eed5c0460941857d83cd80557e56",
+      "bytes": 685095,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/side_027.png",
+      "sha256_before_setup": "de67ac06681493122790916c300f6a2221b3c308b3002c2c7b920a7b7220d1de",
+      "bytes": 678367,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/side_035.png",
+      "sha256_before_setup": "039892e5bdc3b43ae91655c026dfac5b5cdf1335f555d969b94ff3a1163c4414",
+      "bytes": 686290,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/side_043.png",
+      "sha256_before_setup": "24604018f0382b20dc47e9abf1709bad52c7db3966de4507bdeb6fc54de55e4f",
+      "bytes": 686205,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/smoothing.log",
+      "sha256_before_setup": "05276a6b3bc505c38a0a7816d1f1b13482d7cb6f6b540a9b43dead950572ffc4",
+      "bytes": 276,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_sad_walk/source_motion.json",
+      "sha256_before_setup": "0db51c7de2d71323025d533f67e0b410d95520e0a7b6b94faee7275e8f31bf37",
+      "bytes": 552313,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "qa_validation.log",
+      "sha256_before_setup": "6f943f37c6393de87bf3bffd6e0f569c7b442886833d623db36326c1d99ff963",
+      "bytes": 5312,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "run_arm_refinement.log",
+      "sha256_before_setup": "21e8f275fcd93843e8548210de9d39ab3d270660e78dc028d762d20cdc9df787",
+      "bytes": 1062,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/__pycache__/refine_cape_binding.cpython-313.pyc",
+      "sha256_before_setup": "0f7e5233be42faa51387eec9d387019459ee3cb4031b54a0592c7bc3c6fe27de",
+      "bytes": 6273,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/add_mutant_run.py",
+      "sha256_before_setup": "e5c81f83bead95396b4d28f417d37ea73e7cd355623dff31a161e2ecc1ceb07c",
+      "bytes": 12347,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/add_selected_animations.py",
+      "sha256_before_setup": "fa37d97d74655e37094d80674b1b59619efd1a8f82359941e68fa7020916d563",
+      "bytes": 13301,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/analyze_mesh.py",
+      "sha256_before_setup": "ebd34a35d6148a985110d063db985f14eda75cc2057e571ea19ca9e4cd04622f",
+      "bytes": 1205,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/apply_final_mantle_weights.py",
+      "sha256_before_setup": "0500450925db3589861117187ea7af839d2e444d341820f4fb0cbc0e113961fe",
+      "bytes": 1662,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/build_rig.py",
+      "sha256_before_setup": "b08d5f36acc53d97b099e6bbca0aaeeb6082db7fe69ca5d30eb53273969ea2fc",
+      "bytes": 18600,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/cache_mixamo.py",
+      "sha256_before_setup": "20a62553537225f8c80ceb58488bfae60769885491af5c015796726d8c66576c",
+      "bytes": 1451,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/check_library_preservation.py",
+      "sha256_before_setup": "8afd1f5d8dedea2e55bf39cc62f6ad006eb64606b7868670e1ad53b941546b19",
+      "bytes": 3201,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/check_run_contacts.py",
+      "sha256_before_setup": "784f3f2caa6a4edf0d20e2a7e2ff8cd8d293c807ca0491ab9a520c56caf7f232",
+      "bytes": 2693,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/check_sad_contacts.py",
+      "sha256_before_setup": "97c7274873583bff32b95757181e7192e7d8149cd698c97f2a7db603b17e2961",
+      "bytes": 1310,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/correct_jump_margin_basis.py",
+      "sha256_before_setup": "d35605fb5123e2dfe1a2ba0584ebacec91f501670f95ed11c655c6587ad02c5d",
+      "bytes": 1393,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/diagnose_deform.py",
+      "sha256_before_setup": "501c624f61e7d5d6763e4b29b27aa6fe332f00fb073840bfd61328582dc9dba1",
+      "bytes": 1030,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/diagnose_expansion.py",
+      "sha256_before_setup": "b0879f2e32a59177837c5e79bcc859795635b846a7b303e6bd9b589bcfd41b85",
+      "bytes": 1028,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/diagnose_run_deform.py",
+      "sha256_before_setup": "139474e35cd72f5e8b08ed2eb98fc438ac58a296bb6972ff757cb4d4562b243e",
+      "bytes": 1261,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/finalize_expanded_library.py",
+      "sha256_before_setup": "5fdc1b25ebb3d12fbd3f2890a9310c4be917ab5f9cbc468575bf5657f3c53553",
+      "bytes": 4019,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/finalize_project.py",
+      "sha256_before_setup": "e2b116ed4fa3eddd32d2bf6a0d527a379f546816b6fa42520e5b9c03e3e62de8",
+      "bytes": 892,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/finalize_run_library.py",
+      "sha256_before_setup": "9bd74808815abfee6c151c9a4c4c3a10d3a4c181f7e73793c782b04187522bc7",
+      "bytes": 1623,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/finalize_sad_walk.py",
+      "sha256_before_setup": "9a461477322812d48e4d4c0aee20563ab5e9db4740e5fcf805c95322a78bd470",
+      "bytes": 1292,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/finish_jump_margin.py",
+      "sha256_before_setup": "34b90c1442dbeea40f4ad141d403d62fcf200e44c0013168498c0070aa6dd413",
+      "bytes": 1014,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/inspect_character.py",
+      "sha256_before_setup": "a5d7fd35c38c8291ed1df87bce94143c2ed788a392dc10229d48d6a25dfa0d77",
+      "bytes": 2879,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/inspect_creature_pack.py",
+      "sha256_before_setup": "7030a0ccedae9e9eda8096759f0fca5e406eca4f3b21e0dd35d2705b13828a20",
+      "bytes": 3956,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/inspect_hitch.py",
+      "sha256_before_setup": "f93de829a3d9afae3d0d49e31b4588de329809f94080e29ddeeeedd799c59901",
+      "bytes": 1424,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/inspect_mixamo.py",
+      "sha256_before_setup": "98465e0ad14a07682ed195f4a2afe1eba174f427d4ad08b568ddbd3eae491fb3",
+      "bytes": 2108,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/pack_motion_gallery.py",
+      "sha256_before_setup": "6bbf6722d6ae7b31bec59f2260f5415499fb0787dbcbe0b2cda96d7f871d7d80",
+      "bytes": 2167,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/package_expanded_library.py",
+      "sha256_before_setup": "283aadb266fa4cbdb3d9508f13e08735d4ecb56cb0bb9158f4405eaa3b282a5e",
+      "bytes": 2487,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/package_previews.py",
+      "sha256_before_setup": "6691eabb799ca73dccdd94de89c309e4d801a9d43e9fb2df13f10f0cf629f4a9",
+      "bytes": 8526,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/package_run.py",
+      "sha256_before_setup": "c8c8ae9e21f4c5f08fd53dd6ede7149a397b237cd65d976ed702b065908c0fa1",
+      "bytes": 7832,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/package_sad_walk.py",
+      "sha256_before_setup": "067bac468eacd0e8954af32b1cf9f047e559715779bcb221c76a5ea1239730f0",
+      "bytes": 6968,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/qa_expanded_library.py",
+      "sha256_before_setup": "6fb91b9eaef44738b3c12a626e0219d627a74345e0fc3132d1351c981e34d88b",
+      "bytes": 5839,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/qa_hitch_fix.py",
+      "sha256_before_setup": "d6bdf64e9082097b8c554b7c15c961fddec9debb9ee052b5abb8adb8eba2269a",
+      "bytes": 2983,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/qa_mutant_run.py",
+      "sha256_before_setup": "43ed2c4b90c278f02b3ef370b8532bf299ff60a1137750f93e578e7fb92ec987",
+      "bytes": 3876,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/qa_rig.py",
+      "sha256_before_setup": "634071be38074f0947cf337a15f4e3f98b982a1d2b7059e04588d48b98b98fd1",
+      "bytes": 4974,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/qa_sad_walk.py",
+      "sha256_before_setup": "0ca8ea463330c6f5cd03c7a909708d89ea55d3c771473cfc3a120225122e3a5e",
+      "bytes": 4080,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/refine_cape_binding.py",
+      "sha256_before_setup": "76f1ea7894d3b198ee1e1dcc947540625be0fafc2a615c9ba3ad796707c90c3d",
+      "bytes": 2460,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/refine_expansion_shoulders.py",
+      "sha256_before_setup": "776751c69c253c5508fe827e962c787111b784c44f70bd33ae4ed1a87a34d6f3",
+      "bytes": 3012,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/refine_jump_contact.py",
+      "sha256_before_setup": "66228aebef27dff051d70cbc45d85661705d8a5b6a8801e25ab6c6b66e409450",
+      "bytes": 2619,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/refine_run_arms.py",
+      "sha256_before_setup": "5c4d81465c74700ed8eb080a20e5771521622c14457e6951eb42a4c8517a1280",
+      "bytes": 3339,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/retarget_sad_walk.py",
+      "sha256_before_setup": "b31bc81a601ceb0c5fe45ad467ef694b3986ba93d4e0114326d74faf6c911ff0",
+      "bytes": 11982,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/smooth_sad_walk.py",
+      "sha256_before_setup": "eef0eef515aee4c2509c4ca9fb7fc3d73c0c6910095744a194b7d5c5fa6b4404",
+      "bytes": 4618,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/test_mantle_weights.py",
+      "sha256_before_setup": "7e4a7eda059ed8d15ddd96e4bb9c2f55e0e81677aced5edebe5a0be84bb32a99",
+      "bytes": 3612,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "scripts/write_expansion_docs.py",
+      "sha256_before_setup": "82cc78feac7aba06f9be3300b584f80e4788404a8bff3a513d23058c9e0f692b",
+      "bytes": 9655,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "tools/blender/README.md",
+      "sha256_before_setup": "2a8cfe199cea384cb309485f76ca58b13b316f5b0a2f736f52101672011096b6",
+      "bytes": 1306,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "tools/blender/animation/README.md",
+      "sha256_before_setup": "ed2091e16162c7eb97291cac4e62edc25ecb9dd52e4eb402cf42babeef61f49f",
+      "bytes": 341,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "tools/blender/environment/README.md",
+      "sha256_before_setup": "67ba123dffd9a1bff7583e4cd9e747d074bbd7792a73b4c2b45b4f5ff77910d4",
+      "bytes": 281,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "legacy_animation",
+      "path": "tools/blender/inspect_library.py",
+      "sha256_before_setup": "0d882d33e592bfbf589a74daea225781bc5a58cde5204e6e73e7bb00e733e34a",
+      "bytes": 2744,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "repo",
+      "path": "ACTS_AND_MAPS.md",
+      "sha256_before_setup": "7cdf05efce76526620ee4e6f9bebf496a51f73aef53f7a91ddb6b31db3e8d793",
+      "bytes": 19918,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "repo",
+      "path": "AGENTS.md",
+      "sha256_before_setup": "f83301206845f88bc028a2ddd776c84c5b83573263b885fb8aa03b58caa8725f",
+      "bytes": 8343,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "repo",
+      "path": "ART_BIBLE.md",
+      "sha256_before_setup": "735eeddc5db18cfc9018c0c7f80b6f10178aaae2f3d3a20cc1592504a14f5691",
+      "bytes": 25485,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "repo",
+      "path": "GAME_BIBLE.md",
+      "sha256_before_setup": "192f7279e8a31da87bb1130b2f44a8ba1554f13d8abfa1994b34033d8af41fa2",
+      "bytes": 25404,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Last_Ronin_Act1_Block01_v02.html",
+      "sha256_before_setup": "dc951898cd102b1dc45cbe2e8743411f02cc5aff6813b276b363393e0989a102",
+      "bytes": 84065,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Last_Ronin_Act1_Stage1/README.md",
+      "sha256_before_setup": "6915376ba48595769bc7921b3555ea046b500a5b02622b1ae095169626cdee52",
+      "bytes": 1606,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Last_Ronin_Act1_Stage1/main.tscn",
+      "sha256_before_setup": "f7f9d3daf277d6cf6eb334ae7b8a0a794757edf67776e4ace9db2a54708a2f87",
+      "bytes": 161,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Last_Ronin_Act1_Stage1/player.gd",
+      "sha256_before_setup": "02f8ab32cf9f6aab28cd06fa2c3cc73f28a88f4afac8f76c495b49bdbe822736",
+      "bytes": 1096,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Last_Ronin_Act1_Stage1/player.gd.uid",
+      "sha256_before_setup": "f48b67fb7a50ae019b461facb666efeb01c4480015a4ebd73b160c76e6eaeb18",
+      "bytes": 20,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Last_Ronin_Act1_Stage1/project.godot",
+      "sha256_before_setup": "1a82e3cc3fbc759e368fe1036b3a8256ed868d987fa02c31a48f09ef03f55c41",
+      "bytes": 770,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Last_Ronin_Act1_Stage1/world.gd",
+      "sha256_before_setup": "ab1d6eee54008bbc450fad75f543e7173fce09f5961086d2d967e316d690d190",
+      "bytes": 7285,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Last_Ronin_Act1_Stage1/world.gd.uid",
+      "sha256_before_setup": "567655b8c0462e1c90ad6808116fdaa545c0a802ad532734e51251ce031b7277",
+      "bytes": 19,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Last_Ronin_Act1_Stage1_v3_Syntax_Fix.zip",
+      "sha256_before_setup": "ee91255cdcc7a86b51cf61a2357ccf8af2d8f2d3484ee2c89fbc091bcad33ac2",
+      "bytes": 5809,
+      "role": "baseline_input"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Sad Walk.fbx",
+      "sha256": "437cb6848d3823cf6dd31b3c6b5a66685083a9bec598c3328c5a4e72d78f4977",
+      "bytes": 648448,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Mutant Run.fbx",
+      "sha256": "93596fbd2c09b88fe300eb41d777c64b2033076451765c56ad3f32557883d374",
+      "bytes": 328320,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Creature Pack.zip",
+      "sha256": "4664a770e4408e33c0180b80616e6772784c580ef6df331f50b5e2bd40fba763",
+      "bytes": 2984966,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "7d0ccbd9cf98437e/f471252de9414bc0a381833c76a279eb.fbx",
+      "sha256": "647cb1c7ece36607944d7845958cc4f51a1905f42b509cda470caba8415460c2",
+      "bytes": 894908,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "7d0ccbd9cf98437e/Color_bdcbe918-91c3-44a9-b274-2c224a4f11ab.jpg",
+      "sha256": "367d86f4251cac53998d0307ffae201c8f7f49806d3dc1fec564747f3a286c8d",
+      "bytes": 390190,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Rugged Survivor Character Turnaround.png",
+      "sha256": "2e223f577b93b910372af740cb99a554fd1362af1c33a84e6ee88d144e0dd56c",
+      "bytes": 2108241,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Foot Bot Ninja Turnaround Sheet.png",
+      "sha256": "649aa6357d11e5e91f04182da4127eae4cbe16b34ecc0f5f4159983836bd047b",
+      "bytes": 2258365,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Last Ronin Michelangelo Turnaround.png",
+      "sha256": "6c436a866372df8d407d2ecdc7a765273b8e84e57275e56e16eca92a394c0665",
+      "bytes": 2125267,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Weathered Survivor Character Turnaround.png",
+      "sha256": "dfd084940562ebdfd6e8bd2e6db3e8602501f787a61421112e5d24c2b8518334",
+      "bytes": 2027627,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Futuristic Red-Visor Synth Soldier Turnaround.png",
+      "sha256": "4059cc624a2c981fec61a61738ea4aff424df5827259295e60ad3b2d0f5b9182",
+      "bytes": 2086354,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Sci-Fi Robot Soldier Turnaround.png",
+      "sha256": "4528a451305d7ff54c68bcdb681fba9a28a52d02567c7fb1a391e363d8e6cded",
+      "bytes": 1959339,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Rugged Reporter Character Turnaround.png",
+      "sha256": "c8d1acdb7417c7496065e321a75e2d7a44189216a0d0290cff8d1e7bc2f385d2",
+      "bytes": 1955584,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Gritty Survivor Character Turnaround.png",
+      "sha256": "550b3d9f4c8928a34618d6cdeba045348be1afff18697a179a5b8f40015668fd",
+      "bytes": 2098331,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Sci-Fi Mech Turnaround Sheet.png",
+      "sha256": "f2321f344da25dbad43d6be19c3b93fb502b090a89b8e0b9c8d4774c3cef4e63",
+      "bytes": 2316889,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Futuristic Hovercraft Turnaround Sheet.png",
+      "sha256": "9aa5919f89632fc7660196547228f3b6385de8d8726f86e8093bb3a1a15fe6d6",
+      "bytes": 1734272,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Rat-Drone Turnaround Concept Sheet.png",
+      "sha256": "0904444296d65ec8b3b4562ec677aa08b21b0fac723ecaac01497db3ed07af47",
+      "bytes": 1674648,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Armored Ninja Turnaround Sheet.png",
+      "sha256": "14a567746671330729eab96c9c06f67dfb9a993bb485e4a246cbafec40b680ac",
+      "bytes": 1939390,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Armored Samurai Turnaround Concept Art.png",
+      "sha256": "b7639b2d75488ae059cca648e46af6988d455ca32bc04fd0f2acb0584767ae31",
+      "bytes": 1941668,
+      "role": "source_inventory_only"
+    },
+    {
+      "source_root": "downloads",
+      "path": "Michelangelo_ Last Ronin Character Sheet.png",
+      "sha256": "12ceff0fdd6713345fde1a7735299b623840117263486e05345efe91e88a2519",
+      "bytes": 2435191,
+      "role": "source_inventory_only"
+    }
+  ]
+}

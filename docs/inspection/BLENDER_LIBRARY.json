@@ -1,0 +1,245 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "file": "legacy_animation/Ronin_Animation_Library.blend",
+  "scene_fps": 30.0,
+  "scene_playback": [
+    1,
+    44
+  ],
+  "active_action": "Ronin | Mutant Run — In Place",
+  "rig": {
+    "name": "RONIN_RIG",
+    "bones": 37,
+    "deform_bones": 32,
+    "bone_names": [
+      "CTRL_root",
+      "hips",
+      "spine",
+      "chest",
+      "neck",
+      "head",
+      "clavicle.L",
+      "upper_arm.L",
+      "forearm.L",
+      "hand.L",
+      "clavicle.R",
+      "upper_arm.R",
+      "forearm.R",
+      "hand.R",
+      "cloak_01.C",
+      "cloak_02.C",
+      "cloak_03.C",
+      "cloak_01.L",
+      "cloak_02.L",
+      "cloak_03.L",
+      "cloak_01.R",
+      "cloak_02.R",
+      "cloak_03.R",
+      "thigh.L",
+      "shin.L",
+      "foot.L",
+      "toe.L",
+      "thigh.R",
+      "shin.R",
+      "foot.R",
+      "toe.R",
+      "tabard_01",
+      "tabard_02",
+      "CTRL_foot_IK.L",
+      "CTRL_knee_pole.L",
+      "CTRL_foot_IK.R",
+      "CTRL_knee_pole.R"
+    ]
+  },
+  "mesh": {
+    "name": "Ronin_Body",
+    "vertices": 22449,
+    "polygons": 17801,
+    "uv_layers": [
+      "UVMap"
+    ],
+    "modifiers": [
+      {
+        "name": "Ronin skin | preserve volume",
+        "type": "ARMATURE"
+      }
+    ]
+  },
+  "images": [
+    {
+      "name": "Color_bdcbe918-91c3-44a9-b274-2c224a4f11ab",
+      "packed": true,
+      "source": "FILE",
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "QA | Range of Motion",
+      "key_range": [
+        1.0,
+        51.0
+      ],
+      "manual_range": null,
+      "fake_user": true,
+      "asset": false,
+      "key_seconds_and_values_sha256": "9c1ab315b864a6a65999c77720b25096bce8207355ae65cdf78535739d89bdf7"
+    },
+    {
+      "name": "Ronin | Breathing Idle",
+      "key_range": [
+        1.0,
+        121.0
+      ],
+      "manual_range": [
+        1.0,
+        120.0
+      ],
+      "fake_user": true,
+      "asset": true,
+      "key_seconds_and_values_sha256": "94c318979ab5275eda14cddd2bc52104578575a0043987a0fd1e1d446beab266"
+    },
+    {
+      "name": "Ronin | Jump",
+      "key_range": [
+        1.0,
+        96.0
+      ],
+      "manual_range": [
+        1.0,
+        96.0
+      ],
+      "fake_user": true,
+      "asset": true,
+      "key_seconds_and_values_sha256": "1769ff830ddd265ab802bef4d7ebc495fff0997dff129dcccbbeb6b878bbf567"
+    },
+    {
+      "name": "Ronin | Mixamo Sad Walk — In Place",
+      "key_range": [
+        1.0,
+        53.0
+      ],
+      "manual_range": [
+        1.0,
+        52.0
+      ],
+      "fake_user": true,
+      "asset": false,
+      "key_seconds_and_values_sha256": "24e6e992e587da50dc90613c27926ef3b94603435690fde9ad7a06454a4789c5"
+    },
+    {
+      "name": "Ronin | Mixamo Sad Walk — Root Motion",
+      "key_range": [
+        1.0,
+        53.0
+      ],
+      "manual_range": [
+        1.0,
+        52.0
+      ],
+      "fake_user": true,
+      "asset": false,
+      "key_seconds_and_values_sha256": "9bfeb4e0f476657927aa89f73282f692a19815e166fe8b7d355baf8a7de9a309"
+    },
+    {
+      "name": "Ronin | Mutant Run — In Place",
+      "key_range": [
+        1.0,
+        45.0
+      ],
+      "manual_range": [
+        1.0,
+        44.0
+      ],
+      "fake_user": true,
+      "asset": true,
+      "key_seconds_and_values_sha256": "fad16508cf7ac90f03d978e60286140bef3b2b267942597d4d650c230d2fef96"
+    },
+    {
+      "name": "Ronin | Mutant Run — Root Motion",
+      "key_range": [
+        1.0,
+        45.0
+      ],
+      "manual_range": [
+        1.0,
+        44.0
+      ],
+      "fake_user": true,
+      "asset": true,
+      "key_seconds_and_values_sha256": "f704212e8b27a085ad6302ca2a06621d055af39da6c2608d031f76c1abe215d3"
+    },
+    {
+      "name": "Ronin | Punch",
+      "key_range": [
+        1.0,
+        34.0
+      ],
+      "manual_range": [
+        1.0,
+        34.0
+      ],
+      "fake_user": true,
+      "asset": true,
+      "key_seconds_and_values_sha256": "6d6acaf6b3440ba95efac10d34cb0c12ab53815a138501d97ea448dde9b86e90"
+    },
+    {
+      "name": "Ronin | Turn Left 45",
+      "key_range": [
+        1.0,
+        41.0
+      ],
+      "manual_range": [
+        1.0,
+        41.0
+      ],
+      "fake_user": true,
+      "asset": true,
+      "key_seconds_and_values_sha256": "40e9795bbc1f0b8e1f02ec27ca5e1081bfe222db81e433a5eec4e2eeac0e3e4b"
+    },
+    {
+      "name": "Ronin | Turn Right 45",
+      "key_range": [
+        1.0,
+        60.0
+      ],
+      "manual_range": [
+        1.0,
+        60.0
+      ],
+      "fake_user": true,
+      "asset": true,
+      "key_seconds_and_values_sha256": "ecf09e89d47dd2e230905a49ab6e0be242c3410d1da7a6e96fcd83c3fc3a33cb"
+    },
+    {
+      "name": "Ronin | Turn Right 90",
+      "key_range": [
+        1.0,
+        73.0
+      ],
+      "manual_range": [
+        1.0,
+        73.0
+      ],
+      "fake_user": true,
+      "asset": true,
+      "key_seconds_and_values_sha256": "8222db7d17e3c18eea4d38fd1800e2f66a1a93d144a30f1925658ad15f8a8f98"
+    },
+    {
+      "name": "Ronin | Weighted Ninja Walk",
+      "key_range": [
+        1.0,
+        41.0
+      ],
+      "manual_range": null,
+      "fake_user": true,
+      "asset": false,
+      "key_seconds_and_values_sha256": "0ad042432c675e2b5cbe5ae30e0e18fe666a58e544dabb6c8d90a2031d941aa9"
+    }
+  ],
+  "inspection_date": "2026-10-12",
+  "scope": "Fresh read-only metadata inspection; no saving or fresh pose sampling."
+}
